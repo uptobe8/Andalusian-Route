@@ -1,8 +1,37 @@
-TU RUTA CÁDIZ EN CAMPER — APP NUEVA DESDE CERO
+TU RUTA CÁDIZ EN CAMPER — RECONSTRUCCIÓN COMPLETA DESDE CERO
 
-No reutiliza código ni capturas de versiones anteriores.
-Estructura multipágina real: index, crear ruta, resultado, día a día, destino, Park4Night, detalle de pernocta, explorar, POI, favoritos y perfil.
+Estructura:
+- index.html
+- assets/css/app.css
+- assets/js/data.js
+- assets/js/app.js
+- assets/svg/camper-sketch.svg
+- manifest.webmanifest
+- server.py
+- start-server.command
+- start-server.bat
 
-Los botones principales usan navegación HTML nativa. CALCULAR RUTA es un formulario GET real que abre ruta.html incluso si JavaScript está deshabilitado.
+Ejecución recomendada:
+1. macOS: doble clic en start-server.command o ejecuta `python3 server.py`.
+2. Windows: doble clic en start-server.bat.
+3. Abre http://localhost:8080
 
-Las fotografías son nuevas referencias externas distintas a las capturas del diseño. Requieren conexión a Internet. Los SVG de identidad/sketch son nuevos y están dentro del ZIP.
+También puede abrirse index.html directamente, aunque un servidor HTTP es la forma correcta de probar una web app.
+
+Pantallas:
+Inicio, Crear ruta, Resultado/Mapa, Ruta día a día, Destino, Park4Night,
+Detalle de pernocta, Explorar, POI, Favoritos y Perfil.
+
+Funcionalidad:
+- Navegación SPA por hash.
+- Calcular ruta.
+- Añadir/quitar destinos.
+- Activar filtros.
+- Reordenar/eliminar paradas.
+- Añadir parada.
+- Zoom del mapa SVG.
+- Favoritos persistentes en localStorage.
+- Búsqueda de pernocta.
+- Abrir Park4Night y Google Maps.
+- Compartir/copiar ruta.
+- Responsive móvil/tablet/escritorio.
