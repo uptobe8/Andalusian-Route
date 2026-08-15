@@ -1,8 +1,0 @@
-{
-  "name":"Tu Ruta Cádiz en Camper",
-  "short_name":"Ruta Cádiz",
-  "start_url":"./index.html",
-  "display":"standalone",
-  "background_color":"#ffffff",
-  "theme_color":"#ffffff"
-}
