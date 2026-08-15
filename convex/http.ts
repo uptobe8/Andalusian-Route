@@ -1,0 +1,12 @@
+import { httpRouter } from "convex/server";
+import { httpAction } from "./_generated/server";
+import { api } from "./_generated/api";
+const http=httpRouter();
+const cors={"Access-Control-Allow-Origin":"*","Access-Control-Allow-Headers":"content-type","Access-Control-Allow-Methods":"GET,POST,OPTIONS","Content-Type":"application/json"};
+const client=(r:Request)=>r.headers.get("x-client-id")||"anonymous-browser";
+http.route({path:"/api/routes",method:"POST",handler:httpAction(async(ctx,req)=>{const b=await req.json();const id=await ctx.runMutation(api.routes.save,{clientId:client(req),name:b.name,days:b.days,placeIds:b.placeIds,distanceKm:b.distanceKm,durationMinutes:b.durationMinutes,createdAt:b.createdAt});return new Response(JSON.stringify({ok:true,id}),{headers:cors})})});
+http.route({path:"/api/favorites",method:"GET",handler:httpAction(async(ctx,req)=>{const rows=await ctx.runQuery(api.favorites.list,{clientId:client(req)});return new Response(JSON.stringify(rows.map(r=>({type:r.itemType,id:r.itemId,name:r.name,photo:r.photo,key:r.itemType+":"+r.itemId}))),{headers:cors})})});
+http.route({path:"/api/favorites",method:"POST",handler:httpAction(async(ctx,req)=>{const b=await req.json();const out=await ctx.runMutation(api.favorites.toggle,{clientId:client(req),itemType:b.type,itemId:b.id,name:b.name,photo:b.photo});return new Response(JSON.stringify(out),{headers:cors})})});
+http.route({path:"/api/preferences",method:"POST",handler:httpAction(async(ctx,req)=>{const b=await req.json();await ctx.runMutation(api.preferences.save,{clientId:client(req),payload:b});return new Response(JSON.stringify({ok:true}),{headers:cors})})});
+for(const p of ["/api/routes","/api/favorites","/api/preferences"])http.route({path:p,method:"OPTIONS",handler:httpAction(async()=>new Response(null,{status:204,headers:cors}))});
+export default http;

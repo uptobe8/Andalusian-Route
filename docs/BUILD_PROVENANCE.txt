@@ -1,0 +1,5 @@
+BUILD: CADIZ_CAMPER_CONVEX_FRESH_20260816
+CREATED FROM EMPTY DIRECTORY.
+No HTML, CSS, JavaScript, images, ZIPs or assets from previous app versions were copied into this build.
+Visual requirements were implemented from the user-provided screen references only.
+Backend architecture follows Convex guidance retrieved in this conversation.

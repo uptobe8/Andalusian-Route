@@ -1,26 +1,23 @@
-window.CADIZ_DATA = {
-  colors:{lime:'#dfff00',pink:'#ff1678',black:'#050505'},
-  photos:{
-    camper:'https://imgr1.promobil.de/Reise-Tarifa-Standplatz-169FullWidth-b44d9b55-2012755.jpg',
-    palmar:'https://upload.wikimedia.org/wikipedia/commons/f/fc/Playa_del_palmar.jpg',
-    conil:'https://upload.wikimedia.org/wikipedia/commons/d/de/Conil_desde_playa.jpg',
-    bolonia:'https://upload.wikimedia.org/wikipedia/commons/8/8f/Playa_Bolonia-Tarifa-IMG_20230909_152928.jpg',
-    bateles:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Los_Bateles_Beach_in_Conil_de_la_Frontera_Spain.jpg/960px-Los_Bateles_Beach_in_Conil_de_la_Frontera_Spain.jpg',
-    surf:'https://www.trafalgarpolo.com/wp-content/uploads/2024/11/surf-el-palmar.jpg',
-    sunset:'https://www.vagamundos.pt/wp-content/uploads/2023/05/41-1-600x450.jpg',
-    beachCamper:'https://images.ctfassets.net/sqrqcp8t956w/6jPVN5vDVuw5cIK1R7IGUY/3cd4cb5eae74e35074284d55cfd48be5/Blick_auf_die_Ku_ste_mit_Camper_Wohnmobil_Camping_am_Meer__Spanien.jpg'
-  },
+window.CADIZ_DATA={
+  hero:"https://jackaufreisen.com/wp-content/uploads/Camping-an-der-Costa-de-la-Luz-scaled.jpg",
   places:[
-    {id:'zahara',name:'Zahara de los Atunes',short:'Zahara',lat:36.135,lng:-5.845,photo:'https://www.vagamundos.pt/wp-content/uploads/2023/05/41-1-600x450.jpg',tags:['Playa','Gastronomía','Tranquilidad'],desc:'Arena atlántica, restaurantes de atún y una costa abierta para empezar la ruta con calma.'},
-    {id:'conil',name:'Conil de la Frontera',short:'Conil',lat:36.277,lng:-6.088,photo:'https://upload.wikimedia.org/wikipedia/commons/d/de/Conil_desde_playa.jpg',tags:['Pueblo blanco','Playa','Gastronomía'],desc:'Pueblo blanco junto al mar, con playas largas, casco histórico y ambiente relajado.'},
-    {id:'el-palmar',name:'El Palmar',short:'El Palmar',lat:36.218,lng:-6.061,photo:'https://upload.wikimedia.org/wikipedia/commons/f/fc/Playa_del_palmar.jpg',tags:['Surf','Playa','Atardecer'],desc:'Una de las franjas de costa más surf de Cádiz, abierta al Atlántico y con puestas de sol muy limpias.'},
-    {id:'bolonia',name:'Bolonia',short:'Bolonia',lat:36.081,lng:-5.761,photo:'https://upload.wikimedia.org/wikipedia/commons/8/8f/Playa_Bolonia-Tarifa-IMG_20230909_152928.jpg',tags:['Naturaleza','Playa','Mirador'],desc:'Duna, playa salvaje y paisaje abierto. Una parada visualmente imprescindible.'},
-    {id:'tarifa',name:'Tarifa',short:'Tarifa',lat:36.014,lng:-5.604,photo:'https://www.trafalgarpolo.com/wp-content/uploads/2024/11/surf-el-palmar.jpg',tags:['Surf','Pueblo','Ambiente'],desc:'Viento, surf y vida de costa en el extremo sur. Ideal para cerrar la ruta con energía.'},
-    {id:'vejer',name:'Vejer de la Frontera',short:'Vejer',lat:36.252,lng:-5.968,photo:'https://upload.wikimedia.org/wikipedia/commons/d/de/Conil_desde_playa.jpg',tags:['Pueblo blanco','Mirador','Gastronomía'],desc:'Calles blancas, vistas elevadas y gastronomía local para romper la línea de playa.'}
+    {id:"zahara",name:"Zahara de los Atunes",short:"Zahara",lat:36.1366,lng:-5.8458,photo:"https://camperguru.com/wp-content/uploads/2021/04/Costa-de-Luz-1-2-1024x682.jpg",desc:"Arena dorada, ambiente relajado y una costa abierta al Atlántico.",tags:["Con playa","Frente al mar","Gastronomía","Tranquilidad"],kmFromPrev:45,minFromPrev:50},
+    {id:"conil",name:"Conil de la Frontera",short:"Conil",lat:36.2777,lng:-6.0880,photo:"https://blog.fuertehoteles.com/wp-content/uploads/2020/07/playas-de-conil.jpg",desc:"Pueblo blanco junto al mar, con playas salvajes, buena gastronomía y un ambiente relajado todo el año.",tags:["Con playa","Pueblo costero","Gastronomía","Pueblos blancos"],kmFromPrev:40,minFromPrev:45},
+    {id:"el-palmar",name:"El Palmar",short:"El Palmar",lat:36.2181,lng:-6.0603,photo:"https://aframe.de/media/pages/blog/surfcamp-el-palmar/5600754b0c-1730710869/surfcamp-el-palmar-1200x630-crop.jpg",desc:"Surf, arena infinita y puestas de sol con un ambiente muy informal.",tags:["Con playa","Frente al mar","Surf","Ambiente nocturno"],kmFromPrev:30,minFromPrev:35},
+    {id:"bolonia",name:"Bolonia",short:"Bolonia",lat:36.0806,lng:-5.7608,photo:"https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7QPSOTFTQJGSHOMEWEKABL7QRQ.jpg",desc:"Duna, mar turquesa y naturaleza en uno de los paisajes más reconocibles del litoral gaditano.",tags:["Con playa","Frente al mar","Naturaleza","Miradores","Tranquilidad"],kmFromPrev:60,minFromPrev:60},
+    {id:"tarifa",name:"Tarifa",short:"Tarifa",lat:36.0130,lng:-5.6040,photo:"https://spaindmsmedia.newmindmedia.com/wsimgs/109AF71B4F1376BD90ED2894B8A8891D68872E17.jpg",desc:"Viento, surf, callejuelas y una mezcla única entre Mediterráneo y Atlántico.",tags:["Con playa","Pueblo costero","Surf","Ambiente nocturno"],kmFromPrev:35,minFromPrev:35},
+    {id:"vejer",name:"Vejer de la Frontera",short:"Vejer",lat:36.2520,lng:-5.9670,photo:"https://www.celebritycruises.com/blog/content/uploads/2025/10/cadiz-beaches-playa-los-bateles-conil-de-la-frontera-1024x682.jpg",desc:"Pueblo blanco elevado, calles encaladas y miradores sobre la campiña y el litoral.",tags:["Pueblos blancos","Miradores","Gastronomía","Tranquilidad"],kmFromPrev:35,minFromPrev:35},
+    {id:"canos",name:"Los Caños de Meca",short:"Caños",lat:36.1858,lng:-6.0122,photo:"https://www.celebritycruises.com/blog/content/uploads/2025/10/cadiz-beaches-playa-de-la-fontanilla-conil-de-la-frontera.jpg",desc:"Acantilados, pinares y pequeñas calas junto al cabo de Trafalgar.",tags:["Con playa","Frente al mar","Naturaleza","Tranquilidad"],kmFromPrev:18,minFromPrev:22}
+  ],
+  featured:[
+    {id:"coast",name:"Costa de la Luz",days:7,nights:6,km:120,photo:"https://camperguru.com/wp-content/uploads/2021/04/Costa-de-Luz-1-2-1024x682.jpg"},
+    {id:"surf",name:"Cádiz Surf Trip",days:5,nights:4,km:90,photo:"https://aframe.de/media/pages/blog/surfcamp-el-palmar/5600754b0c-1730710869/surfcamp-el-palmar-1200x630-crop.jpg"},
+    {id:"white",name:"Pueblos Blancos",days:6,nights:5,km:110,photo:"https://blog.fuertehoteles.com/wp-content/uploads/2020/07/playas-de-conil.jpg"}
   ],
   sleep:[
-    {id:'fontanilla',name:'Frente a La Fontanilla',town:'Conil',distance:'0,2 km',rating:4.7,photo:'https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Los_Bateles_Beach_in_Conil_de_la_Frontera_Spain.jpg/960px-Los_Bateles_Beach_in_Conil_de_la_Frontera_Spain.jpg',tags:['Frente al mar','Tranquilo','Acceso camper'],lat:36.286,lng:-6.101},
-    {id:'aceite',name:'Cala del Aceite',town:'Conil',distance:'3,5 km',rating:4.6,photo:'https://images.ctfassets.net/sqrqcp8t956w/6jPVN5vDVuw5cIK1R7IGUY/3cd4cb5eae74e35074284d55cfd48be5/Blick_auf_die_Ku_ste_mit_Camper_Wohnmobil_Camping_am_Meer__Spanien.jpg',tags:['Vistas al mar','Suelo firme','Tranquilo'],lat:36.300,lng:-6.144},
-    {id:'roqueo',name:'El Roqueo',town:'Conil',distance:'2,8 km',rating:4.5,photo:'https://imgr1.promobil.de/Reise-Tarifa-Standplatz-169FullWidth-b44d9b55-2012755.jpg',tags:['Cerca de playa','Acceso fácil','Servicios cerca'],lat:36.301,lng:-6.120}
+    {id:"bolonia",name:"Bolonia · zona de costa",town:"Bolonia",distance:"0,4 km de la playa",rating:4.8,lat:36.0806,lng:-5.7608,photo:"https://cloudfront-us-east-1.images.arcpublishing.com/infobae/7QPSOTFTQJGSHOMEWEKABL7QRQ.jpg",tags:["Frente al mar","Tranquilo","Naturaleza"],park4night:"https://park4night.com/es/place/627117"},
+    {id:"zahara",name:"Zahara · acceso a playa",town:"Zahara de los Atunes",distance:"0,6 km de la playa",rating:4.7,lat:36.133,lng:-5.8433,photo:"https://camperguru.com/wp-content/uploads/2021/04/Costa-de-Luz-1-2-1024x682.jpg",tags:["Vistas al mar","Acceso camper","Pueblo"],park4night:"https://park4night.com/es/place/26458"},
+    {id:"palmar",name:"El Palmar · The Van Spot",town:"El Palmar",distance:"0,3 km de la playa",rating:4.6,lat:36.2181,lng:-6.0603,photo:"https://aframe.de/media/pages/blog/surfcamp-el-palmar/5600754b0c-1730710869/surfcamp-el-palmar-1200x630-crop.jpg",tags:["Surf","Frente al mar","Acceso camper"],park4night:"https://park4night.com/es/place/513997"},
+    {id:"canos",name:"Los Caños de Meca · costa",town:"Los Caños de Meca",distance:"0,5 km de la playa",rating:4.7,lat:36.1876,lng:-6.0199,photo:"https://www.celebritycruises.com/blog/content/uploads/2025/10/cadiz-beaches-playa-de-la-fontanilla-conil-de-la-frontera.jpg",tags:["Tranquilo","Naturaleza","Mar"],park4night:"https://park4night.com/es/place/453068"}
   ]
 };

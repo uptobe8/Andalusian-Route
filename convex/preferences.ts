@@ -1,0 +1,3 @@
+import { mutation } from "./_generated/server";
+import { v } from "convex/values";
+export const save = mutation({args:{clientId:v.string(),payload:v.any()},returns:v.null(),handler:async(ctx,a)=>{const old=await ctx.db.query("preferences").withIndex("by_clientId",q=>q.eq("clientId",a.clientId)).unique();if(old)await ctx.db.patch(old._id,{payload:a.payload,updatedAt:Date.now()});else await ctx.db.insert("preferences",{clientId:a.clientId,payload:a.payload,updatedAt:Date.now()});return null;}});
