@@ -9,6 +9,7 @@ on:
       - 'assets/js/app.js'
       - 'assets/css/**'
       - 'scripts-check.mjs'
+      - '.github/workflows/validate-app.yml'
 
 jobs:
   validate:
