@@ -1,0 +1,61 @@
+name: Sync traveler community data
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '37 */4 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync_community.py'
+      - '.github/workflows/sync-community.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install open-source community ingestion stack
+        run: pip install 'requests>=2.32,<3' 'beautifulsoup4>=4.12,<5' 'trafilatura>=2.0,<3' 'lxml>=5,<7'
+
+      - name: Sync real traveler communities and active 2026 travel blogs
+        run: python scripts/sync_community.py
+
+      - name: Validate that no fabricated fallback dataset was emitted
+        run: |
+          python - <<'PY'
+          import json
+          p='data/community-index.json'
+          d=json.load(open(p,encoding='utf-8'))
+          assert d.get('year') == 2026
+          assert isinstance(d.get('items'), list)
+          assert d.get('policy','').startswith('Traveler-community')
+          for x in d['items']:
+              assert x.get('source') == 'Minube'
+              assert x.get('url','').startswith('http')
+              assert not x.get('url','').startswith('data:')
+          print(d.get('stats'))
+          PY
+
+      - name: Commit refreshed real community data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/community-index.json data/community-source-status.json
+          if git diff --cached --quiet; then
+            echo 'No community data changes.'
+          else
+            git commit -m 'Sync real traveler community data'
+            git push
+          fi
