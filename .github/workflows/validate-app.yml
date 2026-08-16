@@ -1,0 +1,24 @@
+name: Validate production app
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'index.html'
+      - 'assets/js/app.js'
+      - 'assets/css/**'
+      - 'scripts-check.mjs'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: JavaScript syntax
+        run: node --check assets/js/app.js
+      - name: Production wiring
+        run: node scripts-check.mjs
