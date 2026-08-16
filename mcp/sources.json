@@ -1,0 +1,26 @@
+{
+  "park4night": {
+    "name": "com.pulsemcp.mirror/beba-ai-ml-park4night",
+    "registryUrl": "https://www.pulsemcp.com/servers/beba-ai-ml-park4night/serverjson",
+    "tools": ["search_places", "search_along_route", "get_reviews"],
+    "required": true
+  },
+  "openstreetmap": {
+    "name": "com.pulsemcp.mirror/open-street-map",
+    "command": "uvx",
+    "args": ["osm-mcp-server"],
+    "tools": ["geocode_address", "reverse_geocode", "find_nearby_places", "get_route_directions", "search_category", "explore_area", "find_parking_facilities"]
+  },
+  "weather": {
+    "name": "io.github.dgahagan/weather-mcp",
+    "command": "npx",
+    "args": ["-y", "@dangahagan/weather-mcp@latest"],
+    "tools": ["get_weather_summary", "get_forecast", "get_current_conditions", "get_marine_conditions", "get_air_quality", "search_location"]
+  },
+  "googleMapsOptional": {
+    "name": "com.pulsemcp.mirror/google-maps",
+    "registryUrl": "https://www.pulsemcp.com/servers/google-maps/serverjson",
+    "requiresApiKey": true,
+    "note": "Opcional: places, routing, elevation y weather con Google Maps Platform. La app funciona sin esta clave usando OSM + OSRM + Weather MCP."
+  }
+}

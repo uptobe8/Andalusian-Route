@@ -1,39 +1,24 @@
-# Cádiz Camper · Park4Night MCP REAL
+# Andalusian Roude
 
-Esta entrega no usa ratings, IDs o fichas inventadas.
+Nueva app creada desde cero para planificar rutas en camper por toda Andalucía.
 
-## Fuente de Park4Night
-- PulseMCP: https://www.pulsemcp.com/servers/beba-ai-ml-park4night
-- Registry name: `com.pulsemcp.mirror/beba-ai-ml-park4night`
-- Implementación: https://github.com/Beba-ai-ml/park4night-mcp
-- Herramientas MCP: `search_places`, `search_along_route`, `get_reviews`
-- Transporte: stdio.
-- Upstream leído por el MCP: `https://park4night.com/api/places/around` y `https://guest.park4night.com/services/V4.1/commGet.php`.
+## Arranque
+Requisitos: Node 20+, `npx` y `uvx` para los MCP locales.
 
-## Cómo funciona la app
-1. `backend/mcp_client.py` abre el servidor MCP de `mcp/server.py` por stdio.
-2. El navegador NO llama directamente a Park4Night. Llama al backend local.
-3. `/api/park4night/search` invoca realmente `search_places`.
-4. `/api/park4night/reviews/{id}` invoca realmente `get_reviews`.
-5. El botón **ACTUALIZAR MCP** sustituye la caché verificada por resultados LIVE.
+```bash
+node server.mjs
+```
+Abre `http://localhost:8080`.
 
-## Datos reales incluidos como caché inicial
-`data/verified_park4night.json` contiene cuatro fichas verificadas el 16/08/2026 para que la app no muestre datos falsos si se abre sin backend:
-- #627117 Parking Bolonia Beach
-- #26458 Zahara de los Atunes
-- #513997 The Van Spot, El Palmar
-- #453068 Los Caños de Meca, Avenida Trafalgar
+## MCP
+- Park4Night se resuelve dinámicamente desde su `server.json` de PulseMCP. Si PulseMCP publica un paquete npm/pypi instalable, la app lo ejecuta por stdio automáticamente.
+- Si Park4Night requiere un comando manual, define:
+  - `PARK4NIGHT_MCP_COMMAND`
+  - `PARK4NIGHT_MCP_ARGS` como JSON, por ejemplo `["server.py"]`
+- OpenStreetMap: `uvx osm-mcp-server`
+- Weather: `npx -y @dangahagan/weather-mcp@latest`
 
-Son registros reales con enlaces a sus fichas Park4Night. La app los identifica como **verificados**, no como consulta LIVE.
+No hay fichas Park4Night, reviews, POI ni weather inventados: si un proveedor real falla, la interfaz muestra el error.
 
-## Ejecutar
-### macOS/Linux
-`./start.sh`
-
-### Windows
-Doble clic en `start.bat`.
-
-El primer arranque instala `mcp`, `httpx`, `fastapi` y `uvicorn`. Después abre `http://127.0.0.1:8080`.
-
-## Requisito para consulta LIVE
-La máquina que ejecute la app debe tener Internet. El entorno donde se generó este ZIP no permite conexiones salientes desde el contenedor, por eso la verificación de las fichas reales se realizó contra las páginas públicas accesibles en web y se incluyó la caché verificada. La integración MCP sí queda cableada para ejecutarse en una máquina con acceso a Internet.
+## Legibilidad
+Base 16px. Menús 12–15px. Timeline: nombres 19px móvil / 22px escritorio, metadatos 14–15px, chips 12px. Botones 15px.
