@@ -1,0 +1,12 @@
+{
+  "name":"Andalusian Roude",
+  "short_name":"Roude Camper",
+  "description":"Rutas camper, lugares, spots y Park4Night.",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#ffffff",
+  "theme_color":"#ffffff",
+  "orientation":"any",
+  "categories":["travel","navigation"]
+}

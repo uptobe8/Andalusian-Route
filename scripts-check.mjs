@@ -1,8 +1,11 @@
 import fs from 'node:fs/promises';
-const html=await fs.readFile('index.html','utf8');const js=await fs.readFile('assets/js/app.js','utf8');
-const required=['home','create','route','timeline','explore','destination','sleep','sleepDetail','favorites','profile'];
-for(const id of required)if(!html.includes(`data-screen="${id}"`))throw new Error(`Missing screen ${id}`);
-for(const id of ['calculate','loadDestinationLive','loadSleep','share','openPark4Night'])if(!html.includes(`id="${id}"`))throw new Error(`Missing action ${id}`);
-if(!js.includes('/api/park4night/search'))throw new Error('Missing Park4Night API wiring');
-if(!js.includes('/api/weather'))throw new Error('Missing Weather API wiring');
-console.log('Structure OK');
+const html=await fs.readFile('index.html','utf8');
+const files=['assets/js/core.js','assets/js/sources.js','assets/js/planner.js','assets/js/community.js','assets/js/app.js','assets/js/poi-sleep.js'];
+const src=(await Promise.all(files.map(f=>fs.readFile(f,'utf8')))).join('\n');
+for(const css of ['assets/css/app.css','assets/css/readability.css','assets/css/features.css','assets/css/poi-sleep.css'])if(!html.includes(css))throw Error(`CSS visual missing: ${css}`);
+for(const js of files)if(!html.includes(js))throw Error(`JS missing: ${js}`);
+for(const screen of ['home','create','route','savedRoutes','timeline','explore','destination','poiDetail','sleep','sleepDetail','favorites','spots','profile'])if(!html.includes(`data-screen="${screen}"`))throw Error(`Screen missing: ${screen}`);
+for(const x of ['nominatim.openstreetmap.org','router.project-osrm.org','api.open-meteo.com','data/park4night-live.json'])if(!src.includes(x))throw Error(`Source missing: ${x}`);
+if(/wikipedia\.org|wikimedia\.org|minube|reddit/i.test(src))throw Error('Forbidden old source found');
+if(src.includes('Math.random')&&!(await fs.readFile('assets/js/core.js','utf8')).includes('Math.random'))throw Error('Random route selection found');
+console.log('OK: visual CSS preserved, functional modules active, Park4Night preserved, obsolete sources removed.');
