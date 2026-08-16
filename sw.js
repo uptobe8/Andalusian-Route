@@ -1,5 +1,38 @@
-const CACHE='andalusian-roude-functional-v1';
-const SHELL=['./','./index.html','./assets/css/app.css','./assets/css/readability.css','./assets/css/features.css','./assets/css/poi-sleep.css','./assets/js/core.js','./assets/js/sources.js','./assets/js/planner.js','./assets/js/community.js','./assets/js/data.js','./assets/js/app.js','./assets/js/poi-sleep.js','./data/park4night-live.json','./manifest.webmanifest'];
-self.addEventListener('install',e=>e.waitUntil(caches.open(CACHE).then(c=>c.addAll(SHELL)).then(()=>self.skipWaiting())));
-self.addEventListener('activate',e=>e.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k)))).then(()=>self.clients.claim())));
-self.addEventListener('fetch',e=>{if(e.request.method!=='GET')return;const u=new URL(e.request.url);if(u.origin!==location.origin)return;e.respondWith(caches.match(e.request).then(hit=>{const fresh=fetch(e.request).then(r=>{if(r.ok)caches.open(CACHE).then(c=>c.put(e.request,r.clone()));return r}).catch(()=>hit);return hit||fresh;}));});
+const CACHE='andalusian-roude-cache-reset-20260817';
+
+self.addEventListener('install',event=>{
+  self.skipWaiting();
+});
+
+self.addEventListener('activate',event=>{
+  event.waitUntil((async()=>{
+    const keys=await caches.keys();
+    await Promise.all(keys.map(key=>caches.delete(key)));
+    await self.clients.claim();
+    const clients=await self.clients.matchAll({type:'window',includeUncontrolled:true});
+    await Promise.all(clients.map(client=>{
+      const url=new URL(client.url);
+      url.searchParams.set('cachefix','20260817');
+      return client.navigate(url.href);
+    }));
+  })());
+});
+
+self.addEventListener('fetch',event=>{
+  if(event.request.method!=='GET')return;
+  const url=new URL(event.request.url);
+  if(url.origin!==self.location.origin)return;
+  event.respondWith((async()=>{
+    try{
+      const request=event.request.mode==='navigate'
+        ? new Request(event.request,{cache:'reload'})
+        : event.request;
+      const response=await fetch(request,{cache:'no-store'});
+      return response;
+    }catch(error){
+      const cached=await caches.match(event.request);
+      if(cached)return cached;
+      throw error;
+    }
+  })());
+});
