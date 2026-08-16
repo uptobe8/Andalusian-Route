@@ -13,6 +13,10 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: traveler-community-sync
+  cancel-in-progress: true
+
 jobs:
   sync:
     runs-on: ubuntu-latest
@@ -20,6 +24,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Setup Python
         uses: actions/setup-python@v5
@@ -29,6 +35,12 @@ jobs:
       - name: Install open-source community ingestion stack
         run: pip install 'requests>=2.32,<3' 'beautifulsoup4>=4.12,<5' 'trafilatura>=2.0,<3' 'lxml>=5,<7'
 
+      - name: Fetch Reddit community scraper repository
+        run: |
+          mkdir -p vendor
+          git clone --depth 1 https://github.com/0anxt/reddit-json-scraper.git vendor/reddit-json-scraper
+          pip install -r vendor/reddit-json-scraper/requirements.txt
+
       - name: Sync real traveler communities and active 2026 travel blogs
         run: python scripts/sync_community.py
 
@@ -36,15 +48,19 @@ jobs:
         run: |
           python - <<'PY'
           import json
-          p='data/community-index.json'
-          d=json.load(open(p,encoding='utf-8'))
+          d=json.load(open('data/community-index.json',encoding='utf-8'))
           assert d.get('year') == 2026
-          assert isinstance(d.get('items'), list)
-          assert d.get('policy','').startswith('Traveler-community')
+          assert isinstance(d.get('items'), list) and len(d['items']) > 0
+          assert 'Wikipedia' not in d.get('sources',[])
+          assert 'OpenStreetMap' not in d.get('sources',[])
+          assert 'Reddit via 0anxt/reddit-json-scraper' in d.get('sources',[])
           for x in d['items']:
+              assert x.get('source_kind') == 'travel-community'
               assert x.get('source') == 'Minube'
+              assert x.get('source_live_2026') is True
               assert x.get('url','').startswith('http')
-              assert not x.get('url','').startswith('data:')
+              assert isinstance(x.get('community_score'), (int,float))
+              assert isinstance(x.get('categories'), list)
           print(d.get('stats'))
           PY
 
@@ -57,5 +73,6 @@ jobs:
             echo 'No community data changes.'
           else
             git commit -m 'Sync real traveler community data'
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi
