@@ -1,24 +1,34 @@
 # Andalusian Roude
 
-Nueva app creada desde cero para planificar rutas en camper por toda Andalucía.
+Web app/PWA para planificar y usar rutas camper desde móvil y escritorio.
 
-## Arranque
-Requisitos: Node 20+, `npx` y `uvx` para los MCP locales.
+## Funcionamiento
+
+La aplicación se sirve de forma estática desde GitHub Pages. No necesita `server.mjs`, Convex ni MCP en el navegador.
+
+Fuentes activas:
+- OpenStreetMap / Nominatim: búsqueda y geocodificación.
+- Overpass: lugares de interés y descubrimiento de destinos.
+- OSRM: rutas reales por carretera.
+- Open-Meteo: meteorología.
+- Park4Night: única fuente externa de pernocta camper; `data/park4night-live.json` se actualiza mediante GitHub Actions.
+
+## Funciones
+
+- Crear una ruta manual o generar 3 propuestas deterministas según días, kilómetros y preferencias.
+- Mapa de ruta con capa Park4Night.
+- Itinerario día a día, visitados y notas.
+- Explorar playas, monumentos, miradores, surf, naturaleza, gastronomía, pueblos y actividades.
+- Fichas POI basadas en datos OSM, sin Wikipedia/Wikimedia.
+- Park4Night con filtros, mapa, favoritos y check-ins/notas personales.
+- Mis rutas, favoritos y spots propios guardados localmente.
+- Exportación de spots en GeoJSON.
+- PWA con caché del shell y datos Park4Night para uso básico sin cobertura.
+
+## Validación
 
 ```bash
-node server.mjs
+npm run check
 ```
-Abre `http://localhost:8080`.
 
-## MCP
-- Park4Night se resuelve dinámicamente desde su `server.json` de PulseMCP. Si PulseMCP publica un paquete npm/pypi instalable, la app lo ejecuta por stdio automáticamente.
-- Si Park4Night requiere un comando manual, define:
-  - `PARK4NIGHT_MCP_COMMAND`
-  - `PARK4NIGHT_MCP_ARGS` como JSON, por ejemplo `["server.py"]`
-- OpenStreetMap: `uvx osm-mcp-server`
-- Weather: `npx -y @dangahagan/weather-mcp@latest`
-
-No hay fichas Park4Night, reviews, POI ni weather inventados: si un proveedor real falla, la interfaz muestra el error.
-
-## Legibilidad
-Base 16px. Menús 12–15px. Timeline: nombres 19px móvil / 22px escritorio, metadatos 14–15px, chips 12px. Botones 15px.
+El validador comprueba la estructura activa, las fuentes permitidas, Park4Night y que el planificador no utilice selección aleatoria.
