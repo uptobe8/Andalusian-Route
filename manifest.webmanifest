@@ -1,0 +1,12 @@
+{
+  "name":"Andalusian Roude — Camper",
+  "short_name":"Roude Camper",
+  "description":"Planificador de rutas camper con POI reales y Park4Night.",
+  "start_url":"./",
+  "scope":"./",
+  "display":"standalone",
+  "background_color":"#0b0c0d",
+  "theme_color":"#0b0c0d",
+  "orientation":"any",
+  "categories":["travel","navigation"]
+}
