@@ -1,4 +1,0 @@
-import { mutation, query } from "./_generated/server";
-import { v } from "convex/values";
-export const toggle = mutation({args:{clientId:v.string(),itemType:v.string(),itemId:v.string(),name:v.string(),photo:v.optional(v.string())},returns:v.object({active:v.boolean()}),handler:async(ctx,a)=>{const old=await ctx.db.query("favorites").withIndex("by_clientId_and_itemType_and_itemId",q=>q.eq("clientId",a.clientId).eq("itemType",a.itemType).eq("itemId",a.itemId)).unique();if(old){await ctx.db.delete(old._id);return{active:false}}await ctx.db.insert("favorites",{...a,createdAt:Date.now()});return{active:true}}});
-export const list = query({args:{clientId:v.string()},returns:v.array(v.any()),handler:async(ctx,{clientId})=>ctx.db.query("favorites").withIndex("by_clientId",q=>q.eq("clientId",clientId)).order("desc").take(100)});

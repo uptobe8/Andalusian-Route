@@ -1,0 +1,14 @@
+PulseMCP listing:
+https://www.pulsemcp.com/servers/beba-ai-ml-park4night
+
+PulseMCP server.json page:
+https://www.pulsemcp.com/servers/beba-ai-ml-park4night/serverjson
+
+Registry name shown by PulseMCP:
+com.pulsemcp.mirror/beba-ai-ml-park4night
+
+Current version shown by PulseMCP on 2026-08-16:
+0.0.0
+
+Upstream implementation:
+https://github.com/Beba-ai-ml/park4night-mcp

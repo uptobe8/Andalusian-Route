@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "park4night": {
+      "command": "python",
+      "args": [
+        "mcp/server.py"
+      ]
+    }
+  }
+}

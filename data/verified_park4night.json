@@ -1,0 +1,100 @@
+{
+  "verified_at": "2026-08-16T02:15:00+02:00",
+  "source": "Park4Night public pages; runtime refresh uses Beba-ai-ml Park4Night MCP server",
+  "records": [
+    {
+      "id": 627117,
+      "name": "Parking Bolonia Beach",
+      "place": "Bolonia",
+      "category": "Aparcamiento / parking camper frente al mar",
+      "rating": 3.43,
+      "reviews": 101,
+      "price": "25€ / 24h (tarifa mostrada en la ficha)",
+      "spaces": 80,
+      "open": "Todo el año",
+      "latitude": 36.0806,
+      "longitude": -5.7608,
+      "height_limit": null,
+      "services": [
+        "Agua potable",
+        "Acceso directo al mar",
+        "Videovigilancia"
+      ],
+      "description": "Parcela para autocaravanas directamente junto a la playa de Bolonia; la ficha indica agua potable y acceso directo al mar.",
+      "url": "https://www.park4night.com/es/place/627117",
+      "image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1100&q=85"
+    },
+    {
+      "id": 26458,
+      "name": "Zahara de los Atunes - 2-6 Urbanización Colmena",
+      "place": "Zahara de los Atunes",
+      "category": "Aparcamiento día y noche",
+      "rating": 3.25,
+      "reviews": null,
+      "price": "18€ / 24h",
+      "spaces": 100,
+      "open": "Todo el año",
+      "latitude": 36.133,
+      "longitude": -5.8433,
+      "height_limit": "3.5 m",
+      "services": [
+        "Se permiten mascotas",
+        "Cubo de basura",
+        "Internet 3G/4G"
+      ],
+      "description": "Parking próximo a la playa y al centro de Zahara; la ficha lo clasifica como aparcamiento día y noche.",
+      "url": "https://park4night.com/es/place/26458",
+      "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1100&q=85"
+    },
+    {
+      "id": 513997,
+      "name": "The Van Spot",
+      "place": "El Palmar",
+      "category": "Parking privado para campers",
+      "rating": 3.55,
+      "reviews": 62,
+      "price": "26€ pax 4 (tarifa mostrada en la ficha)",
+      "spaces": 21,
+      "open": "Todo el año",
+      "latitude": 36.2181,
+      "longitude": -6.0603,
+      "height_limit": null,
+      "services": [
+        "Mascotas",
+        "Agua potable",
+        "Aguas negras",
+        "Aguas grises",
+        "Basura",
+        "WC",
+        "Duchas",
+        "Panadería",
+        "Electricidad",
+        "WiFi"
+      ],
+      "description": "Área de estacionamiento para campers y autocaravanas en primera línea de El Palmar, con acceso fácil a la playa.",
+      "url": "https://www.park4night.com/es/place/513997",
+      "image": "https://images.unsplash.com/photo-1502680390469-be75c86b636f?auto=format&fit=crop&w=1100&q=85"
+    },
+    {
+      "id": 453068,
+      "name": "Los Caños de Meca - 147 Avenida Trafalgar",
+      "place": "Los Caños de Meca",
+      "category": "Aparcamiento día y noche",
+      "rating": 4.23,
+      "reviews": 30,
+      "price": "10€ / 24h (tarifa mostrada en la ficha)",
+      "spaces": 12,
+      "open": "Todo el año",
+      "latitude": 36.1876,
+      "longitude": -6.0199,
+      "height_limit": null,
+      "services": [
+        "Se permiten mascotas",
+        "Cubo de basura"
+      ],
+      "description": "Parking tranquilo junto a la carretera con la playa al otro lado y acceso por pasarela de madera.",
+      "url": "https://park4night.com/es/place/453068",
+      "image": "https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?auto=format&fit=crop&w=1100&q=85"
+    }
+  ]
+}
