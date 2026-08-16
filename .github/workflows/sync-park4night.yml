@@ -1,0 +1,49 @@
+name: Sync Park4Night MCP
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 */6 * * *'
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/sync_park4night.py'
+      - '.github/workflows/sync-park4night.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install MCP runtime
+        run: pip install 'mcp>=1.0.0' httpx
+
+      - name: Fetch Park4Night MCP server
+        run: |
+          mkdir -p vendor
+          git clone --depth 1 https://github.com/Beba-ai-ml/park4night-mcp.git vendor/park4night-mcp
+
+      - name: Query Park4Night through MCP
+        run: python scripts/sync_park4night.py
+
+      - name: Commit refreshed real data
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data/park4night-live.json
+          if git diff --cached --quiet; then
+            echo 'No Park4Night data changes.'
+          else
+            git commit -m 'Sync real Park4Night MCP data'
+            git push
+          fi
