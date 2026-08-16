@@ -1,0 +1,134 @@
+{
+  "generated_at": "2026-08-16T01:14:22.094827+00:00",
+  "source": "Beba-ai-ml/park4night-mcp via MCP stdio",
+  "tool": "search_places",
+  "radius_km": 14,
+  "anchors": [
+    {
+      "name": "Granada",
+      "lat": 37.1773,
+      "lng": -3.5986,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Nerja",
+      "lat": 36.7469,
+      "lng": -3.8794,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Málaga",
+      "lat": 36.7213,
+      "lng": -4.4214,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Ronda",
+      "lat": 36.7462,
+      "lng": -5.1612,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Tarifa",
+      "lat": 36.0143,
+      "lng": -5.6044,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Bolonia",
+      "lat": 36.0806,
+      "lng": -5.7608,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Conil de la Frontera",
+      "lat": 36.2773,
+      "lng": -6.0887,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "El Palmar",
+      "lat": 36.2219,
+      "lng": -6.0672,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Los Caños de Meca",
+      "lat": 36.1848,
+      "lng": -6.0109,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Vejer de la Frontera",
+      "lat": 36.2527,
+      "lng": -5.9675,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Cádiz",
+      "lat": 36.5271,
+      "lng": -6.2886,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Jerez de la Frontera",
+      "lat": 36.685,
+      "lng": -6.1261,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Sevilla",
+      "lat": 37.3891,
+      "lng": -5.9845,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Córdoba",
+      "lat": 37.8882,
+      "lng": -4.7794,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Jaén",
+      "lat": 37.7796,
+      "lng": -3.7849,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Almería",
+      "lat": 36.834,
+      "lng": -2.4637,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Huelva",
+      "lat": 37.2614,
+      "lng": -6.9447,
+      "places": [],
+      "count": 0
+    },
+    {
+      "name": "Almuñécar",
+      "lat": 36.7339,
+      "lng": -3.6907,
+      "places": [],
+      "count": 0
+    }
+  ]
+}
