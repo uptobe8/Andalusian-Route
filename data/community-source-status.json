@@ -1,0 +1,933 @@
+{
+  "generated_at": "2026-08-16T19:25:39.555362+00:00",
+  "status": [
+    {
+      "city": "GLOBAL",
+      "region": "GLOBAL",
+      "sources": [
+        {
+          "source": "Reddit r/travel",
+          "ok": true,
+          "items_2026": 0
+        },
+        {
+          "source": "Reddit r/solotravel",
+          "ok": true,
+          "items_2026": 0
+        },
+        {
+          "source": "Reddit r/GoingToSpain",
+          "ok": true,
+          "items_2026": 0
+        },
+        {
+          "source": "Reddit r/Spain",
+          "ok": true,
+          "items_2026": 0
+        },
+        {
+          "source": "Reddit r/vanlife",
+          "ok": true,
+          "items_2026": 0
+        },
+        {
+          "source": "Reddit r/campervans",
+          "ok": true,
+          "items_2026": 0
+        },
+        {
+          "source": "Reddit r/surfing",
+          "ok": true,
+          "items_2026": 0
+        },
+        {
+          "source": "Reddit r/roadtrip",
+          "ok": true,
+          "items_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "GLOBAL",
+      "region": "GLOBAL",
+      "sources": [
+        {
+          "source": "Autocamperly",
+          "ok": true,
+          "items_2026": 8,
+          "url": "https://autocamperly.com/blog/"
+        },
+        {
+          "source": "WalabiCamper",
+          "ok": true,
+          "items_2026": 8,
+          "url": "https://walabicamper.com/blog/"
+        },
+        {
+          "source": "Áreas Autocaravanas Andalucía",
+          "ok": true,
+          "items_2026": 8,
+          "url": "https://areasautocaravanasandalucia.com/diario-de-viaje/"
+        },
+        {
+          "source": "Furgocasa",
+          "ok": true,
+          "items_2026": 8,
+          "url": "https://www.furgocasa.com/es/blog"
+        },
+        {
+          "source": "Alhambra Camper",
+          "ok": true,
+          "items_2026": 8,
+          "url": "https://alhambracamper.com/blog/"
+        },
+        {
+          "source": "Alas de Ruta",
+          "ok": true,
+          "items_2026": 8,
+          "url": "https://alasderuta.com/blog/"
+        }
+      ]
+    },
+    {
+      "city": "Málaga",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/malaga"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=M%C3%A1laga",
+          "ok": true,
+          "bytes_2026": 72007
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=M%C3%A1laga%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Córdoba",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/cordoba"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=C%C3%B3rdoba",
+          "ok": true,
+          "bytes_2026": 27684
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=C%C3%B3rdoba%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Granada",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/granada"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Granada",
+          "ok": true,
+          "bytes_2026": 57904
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Granada%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Sevilla",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/sevilla"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Sevilla",
+          "ok": true,
+          "bytes_2026": 42153
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Sevilla%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Cádiz",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/cadiz"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=C%C3%A1diz",
+          "ok": true,
+          "bytes_2026": 39556
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=C%C3%A1diz%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Tarifa",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 19,
+          "url": "https://www.minube.com/espana/tarifa"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Tarifa",
+          "ok": true,
+          "bytes_2026": 26676
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Tarifa%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Conil de la Frontera",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/conil_de_la_frontera"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Conil%20de%20la%20Frontera",
+          "ok": true,
+          "bytes_2026": 1874
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Conil%20de%20la%20Frontera%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Nerja",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/nerja"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Nerja",
+          "ok": true,
+          "bytes_2026": 1794
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Nerja%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Ronda",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/ronda"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Ronda",
+          "ok": true,
+          "bytes_2026": 6435
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Ronda%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Almería",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/almeria"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Almer%C3%ADa",
+          "ok": true,
+          "bytes_2026": 21540
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Almer%C3%ADa%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Huelva",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/huelva"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Huelva",
+          "ok": true,
+          "bytes_2026": 36739
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Huelva%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Jaén",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/jaen"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Ja%C3%A9n",
+          "ok": true,
+          "bytes_2026": 1890
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Ja%C3%A9n%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Jerez de la Frontera",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/jerez_de_la_frontera"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Jerez%20de%20la%20Frontera",
+          "ok": true,
+          "bytes_2026": 0
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Jerez%20de%20la%20Frontera%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Marbella",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/marbella"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Marbella",
+          "ok": true,
+          "bytes_2026": 1876
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Marbella%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Frigiliana",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/frigiliana"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Frigiliana",
+          "ok": true,
+          "bytes_2026": 0
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Frigiliana%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Vejer de la Frontera",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/vejer_de_la_frontera"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Vejer%20de%20la%20Frontera",
+          "ok": true,
+          "bytes_2026": 1888
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Vejer%20de%20la%20Frontera%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Grazalema",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 18,
+          "url": "https://www.minube.com/espana/grazalema"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Grazalema",
+          "ok": true,
+          "bytes_2026": 0
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Grazalema%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Úbeda",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/ubeda"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=%C3%9Abeda",
+          "ok": true,
+          "bytes_2026": 0
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=%C3%9Abeda%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Baeza",
+      "region": "Andalucía",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/baeza"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Baeza",
+          "ok": true,
+          "bytes_2026": 0
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Baeza%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Cáceres",
+      "region": "Extremadura",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/caceres"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=C%C3%A1ceres",
+          "ok": true,
+          "bytes_2026": 6883
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=C%C3%A1ceres%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Mérida",
+      "region": "Extremadura",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/merida"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=M%C3%A9rida",
+          "ok": true,
+          "bytes_2026": 21306
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=M%C3%A9rida%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Badajoz",
+      "region": "Extremadura",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/badajoz"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Badajoz",
+          "ok": true,
+          "bytes_2026": 59472
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Badajoz%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Trujillo",
+      "region": "Extremadura",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/trujillo"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Trujillo",
+          "ok": true,
+          "bytes_2026": 0
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Trujillo%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Barcelona",
+      "region": "Catalunya / Cataluña",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/barcelona"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Barcelona",
+          "ok": true,
+          "bytes_2026": 54144
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Barcelona%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Girona",
+      "region": "Catalunya / Cataluña",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/girona"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Girona",
+          "ok": true,
+          "bytes_2026": 3882
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Girona%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Tarragona",
+      "region": "Catalunya / Cataluña",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/tarragona"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Tarragona",
+          "ok": true,
+          "bytes_2026": 24843
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Tarragona%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Lleida",
+      "region": "Catalunya / Cataluña",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/lleida"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Lleida",
+          "ok": true,
+          "bytes_2026": 6674
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Lleida%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Cadaqués",
+      "region": "Catalunya / Cataluña",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/cadaques"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Cadaqu%C3%A9s",
+          "ok": true,
+          "bytes_2026": 0
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Cadaqu%C3%A9s%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Sitges",
+      "region": "Catalunya / Cataluña",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/sitges"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Sitges",
+          "ok": true,
+          "bytes_2026": 1839
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Sitges%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Valencia",
+      "region": "Comunitat Valenciana",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/valencia"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Valencia",
+          "ok": true,
+          "bytes_2026": 33603
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Valencia%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Alicante",
+      "region": "Comunitat Valenciana",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/alicante"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Alicante",
+          "ok": true,
+          "bytes_2026": 21567
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Alicante%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Murcia",
+      "region": "Región de Murcia",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/murcia"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Murcia",
+          "ok": true,
+          "bytes_2026": 11516
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Murcia%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Cartagena",
+      "region": "Región de Murcia",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/cartagena"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Cartagena",
+          "ok": true,
+          "bytes_2026": 21670
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Cartagena%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Madrid",
+      "region": "Comunidad de Madrid",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/madrid"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Madrid",
+          "ok": true,
+          "bytes_2026": 104907
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Madrid%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    },
+    {
+      "city": "Toledo",
+      "region": "Castilla-La Mancha",
+      "sources": [
+        {
+          "source": "Minube",
+          "ok": true,
+          "candidates": 20,
+          "url": "https://www.minube.com/espana/toledo"
+        },
+        {
+          "source": "LosViajeros",
+          "url": "https://www.losviajeros.com/foros.php?st=Toledo",
+          "ok": true,
+          "bytes_2026": 30025
+        },
+        {
+          "source": "Furgovw",
+          "url": "https://www.furgovw.org/foro/index.php?action=search2;search=Toledo%20viaje%20ruta%20camper",
+          "ok": true,
+          "bytes_2026": 0
+        }
+      ]
+    }
+  ]
+}
