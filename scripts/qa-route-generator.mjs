@@ -13,7 +13,10 @@ globalThis.fetch = async (input, init={}) => {
     const text = await fs.readFile('data/park4night-live.json','utf8');
     return new Response(text,{status:200,headers:{'content-type':'application/json'}});
   }
-  return nativeFetch(input, init);
+  const headers = new Headers(init.headers||{});
+  headers.set('User-Agent','Mozilla/5.0 (iPhone; CPU iPhone OS 18_6 like Mac OS X) AppleWebKit/605.1.15 Version/18.6 Mobile/15E148 Safari/604.1');
+  headers.set('Accept','application/json,text/plain,*/*');
+  return nativeFetch(input,{...init,headers});
 };
 
 for (const file of ['assets/js/core.js','assets/js/data.js','assets/js/sources.js','assets/js/planner.js']) {
