@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17T01:56:52.964652+00:00",
+  "generated_at": "2026-08-17T07:18:10.370854+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -3172,7 +3172,7 @@
           "location": "Tarifa, Spain",
           "url": "https://park4night.com/es/place/707336",
           "photo": "https://cdn3.park4night.com/lieu/2182301_2182400/2182381_pt.jpg",
-          "description": "APARCAMIENTO EN TARIFA SIN RESTRICCIÓN DE Vehículos de 5m",
+          "description": "Aparcamiento en Tarifa. Sin restricciones para vehículos de 5 metros de longitud.",
           "latitude": 36.025317,
           "longitude": -5.61357,
           "code": "P",
