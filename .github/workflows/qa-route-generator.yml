@@ -1,0 +1,17 @@
+name: QA real route generator
+on:
+  push:
+    branches:
+      - qa-real-route-20260817-0256
+  workflow_dispatch:
+jobs:
+  route-test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Run exact current planner with live services
+        run: node scripts/qa-route-generator.mjs
