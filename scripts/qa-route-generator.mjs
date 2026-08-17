@@ -8,8 +8,8 @@ globalThis.localStorage = {getItem(){return null;},setItem(){},removeItem(){}};
 globalThis.scrollTo = ()=>{};
 
 globalThis.fetch = async (input, init={}) => {
-  const url = typeof input === 'string' ? input : input.url;
-  if (url.startsWith('data/park4night-live.json')) {
+  const url = typeof input === 'string' ? input : input instanceof URL ? input.toString() : input?.url;
+  if (url?.startsWith('data/park4night-live.json')) {
     const text = await fs.readFile('data/park4night-live.json','utf8');
     return new Response(text,{status:200,headers:{'content-type':'application/json'}});
   }
