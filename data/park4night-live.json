@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-20T13:13:29.256895+00:00",
+  "generated_at": "2026-08-20T19:02:15.693288+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -4106,24 +4106,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 533005,
-          "name": "Zahara de los Atunes, 1 Urbanización Colmena",
-          "category": "Parking día/noche",
-          "rating": 2.33,
-          "num_reviews": 15,
-          "distance_km": 9.401,
-          "price": "18€/24h",
-          "amenities": "WC",
-          "location": "Zahara de los Atunes, Spain",
-          "url": "https://park4night.com/es/place/533005",
-          "photo": "https://cdn3.park4night.com/lieu/1661201_1661300/1661263_pt.jpg",
-          "description": "Cerca de la playa donde se pueda acampar",
-          "latitude": 36.132505,
-          "longitude": -5.843405,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 307345,
           "name": "Tarifa, km.70 N-340",
           "category": "Parking día/noche",
@@ -4372,6 +4354,24 @@
           "description": "Está al lado de las dunas y permite visitarlas. Dicen que es un parking “privado” pero simplemente son más caros de lo que creen porque es solo una calle. Pero merece la pena porque en 5 minutos andando estás en las dunas.",
           "latitude": 36.09253,
           "longitude": -5.786782,
+          "code": "PJ",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 544529,
+          "name": "Cañada de la Jara,",
+          "category": "PJ",
+          "rating": 4.43,
+          "num_reviews": 7,
+          "distance_km": 12.23,
+          "price": "gratuit",
+          "amenities": "Mirador, BTT, Senderismo",
+          "location": "Cañada de la Jara, Spain",
+          "url": "https://park4night.com/es/place/544529",
+          "photo": "https://cdn3.park4night.com/lieu/1676101_1676200/1676141_pt.jpg",
+          "description": "Muy bonito rincón de naturaleza preservada a unos quince minutos de Bolonia. Estamos aquí en plena montaña rodeados de alcornoques y pastos para el ganado. las ovejas deambulan libremente.\r\nEstá limpio, no hay basura en el piso, así que deje el lugar como está. \r\nEl lugar es bastante llano y el acceso no presenta ninguna dificultad especial.\r\nEl ca",
+          "latitude": 36.119508,
+          "longitude": -5.633473,
           "code": "PJ",
           "source": "Park4Night guest API fallback"
         }
@@ -11891,24 +11891,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 45014,
-          "name": "La Rábida, 102 Urbanizacion Rabida Urbanizacion",
-          "category": "Parking día/noche",
-          "rating": 4.01,
-          "num_reviews": 197,
-          "distance_km": 5.921,
-          "price": "gratuit",
-          "amenities": "WC, Basura, BTT, Senderismo",
-          "location": "La Rábida, Spain",
-          "url": "https://park4night.com/es/place/45014",
-          "photo": "https://cdn3.park4night.com/lieu/276301_276400/276350_pt.jpg",
-          "description": "Aparcamiento cerca de las naves de Cristóbal Colón. Sin señal de prohibición. Tranquilo, pero por la noche hay mosquitos.",
-          "latitude": 37.210499,
-          "longitude": -6.92506,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 313306,
           "name": "Huelva,27 Solar PAU1 Ensanche Sur",
           "category": "Parking día/noche",
@@ -11977,6 +11959,24 @@
           "description": "Ideal para pernoctar, zona tranquila, con vista a un paraje natural.",
           "latitude": 37.283007,
           "longitude": -6.988582,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 45014,
+          "name": "La Rábida, 102 Urbanizacion Rabida Urbanizacion",
+          "category": "Parking día/noche",
+          "rating": 3.99,
+          "num_reviews": 198,
+          "distance_km": 5.921,
+          "price": "gratuit",
+          "amenities": "WC, Basura, BTT, Senderismo",
+          "location": "La Rábida, Spain",
+          "url": "https://park4night.com/es/place/45014",
+          "photo": "https://cdn3.park4night.com/lieu/276301_276400/276350_pt.jpg",
+          "description": "Aparcamiento cerca de las naves de Cristóbal Colón. Sin señal de prohibición. Tranquilo, pero por la noche hay mosquitos.",
+          "latitude": 37.210499,
+          "longitude": -6.92506,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
