@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-21T01:59:57.556711+00:00",
+  "generated_at": "2026-08-21T07:09:47.356708+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -7305,7 +7305,7 @@
           "name": "Camino Tiro de Pichón, El Puerto de Santa María",
           "category": "Naturaleza",
           "rating": 5.0,
-          "num_reviews": 1,
+          "num_reviews": 2,
           "distance_km": 9.605,
           "price": "gratuit",
           "amenities": null,
