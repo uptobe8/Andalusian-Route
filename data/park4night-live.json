@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-22T07:01:24.120185+00:00",
+  "generated_at": "2026-08-22T13:02:34.955395+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -13088,6 +13088,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 714001,
+          "name": "Camino del Pelaillo, Motril",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 13.108,
+          "price": "gratuit",
+          "amenities": "Baño",
+          "location": "Motril, Spain",
+          "url": "https://park4night.com/es/place/714001",
+          "photo": null,
+          "description": "Terrain vague de stationnement.\nPas d’interdiction de stationner \nProche de la mer et restaurant",
+          "latitude": 36.71921,
+          "longitude": -3.544767,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 686241,
           "name": "Motril, Granada",
           "category": "Área descanso",
@@ -13103,24 +13121,6 @@
           "latitude": 36.770515,
           "longitude": -3.557019,
           "code": "AR",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 318140,
-          "name": "Area de Autocaravanas de Almuñecar - Alclub",
-          "category": "Área autocaravanas",
-          "rating": 4.54,
-          "num_reviews": 488,
-          "distance_km": 1.862,
-          "price": "20€/ noche(2pax) Extra 3€. Semana 17€/noche. Mes 1",
-          "amenities": "Agua, Aguas negras, Aguas grises, WC, Basura, Ducha, Panadería, Electricidad, WiFi, Lavandería, Mirador, Baño, Windsurf, Senderismo",
-          "location": "Almuñécar, Spain",
-          "url": "https://park4night.com/es/place/318140",
-          "photo": "https://cdn3.park4night.com/lieu/1546401_1546500/1546459_pt.jpg",
-          "description": "(Precios especiales por más de una semana)\r\nBienvenidos al área de autocaravanas “Alclub” en Almuñecar.\r\nA sólo 4 minutos a pie de la playa, restaurantes y supermercados. Aquí encontrará un lugar idílico para relajarse, rodeado de naturaleza, donde nos esforzamos por ofrecerle todo lo necesario para una estancia cómoda, tranquila y agradable.\r\nPor ",
-          "latitude": 36.739293,
-          "longitude": -3.670915,
-          "code": "ACC_P",
           "source": "Park4Night guest API fallback"
         }
       ],
