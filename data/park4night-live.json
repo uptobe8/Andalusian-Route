@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-23T02:01:27.846310+00:00",
+  "generated_at": "2026-08-23T07:03:38.052199+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -866,6 +866,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 714293,
+          "name": "Cómpeta, La Axarquía",
+          "category": "Naturaleza",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 10.58,
+          "price": "gratuit",
+          "amenities": "Baño, BTT, Senderismo",
+          "location": "Cómpeta, Spain",
+          "url": "https://park4night.com/es/place/714293",
+          "photo": "https://cdn3.park4night.com/lieu/2201801_2201900/2201855_pt.jpg",
+          "description": "Parking lot in nature with the possibility of multiple hiking trails (Torrox River hike starting point). It’s a dirt road to get there, but pretty wide and navigable in campervans and smaller campers. \n\nA little further up the road are more parking spaces. No signs prohibiting overnight parking.",
+          "latitude": 36.828011,
+          "longitude": -3.941506,
+          "code": "PN",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 565592,
           "name": "Nerja,",
           "category": "Área pernocta",
@@ -1439,24 +1457,6 @@
           "latitude": 36.807476,
           "longitude": -3.953412,
           "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 677856,
-          "name": "Carretera de Torrox, Torrox",
-          "category": "Área privada",
-          "rating": 5.0,
-          "num_reviews": 1,
-          "distance_km": 7.216,
-          "price": "50 euros el mes con ofertas",
-          "amenities": "Electricidad, Baño",
-          "location": "Torrox, Spain",
-          "url": "https://park4night.com/es/place/677856",
-          "photo": null,
-          "description": "Parking de caravanas, autocaravanas, motos de agua, coches, remolques. Cámaras de vigilancia 24 horas fácil acceso de entrada y salida con control remoto. Disponemos de puntos de luz y agua. Parada de autobús a unos 50 metros y a menos de 300 zonas de ocio, supermercados y paseo marítimo.",
-          "latitude": 36.736821,
-          "longitude": -3.959397,
-          "code": "ACC_PR",
           "source": "Park4Night guest API fallback"
         }
       ],
