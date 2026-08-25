@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-25T07:10:40.692502+00:00",
+  "generated_at": "2026-08-25T13:13:47.738493+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -5015,24 +5015,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 711459,
-          "name": "Stairs/Ramp to Beach, Conil de la Frontera",
-          "category": "Parking día/noche",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 3.068,
-          "price": "gratuit",
-          "amenities": "Baño",
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/711459",
-          "photo": null,
-          "description": "Es un aparcamiento justo a la entrada de una cala muy bonita, se puede aparcar y pernoctar yo me he pegado 4 dias,zona muy tranquila sin servicios aunque hay un camping a 8 mnts a pie que tiene de todo",
-          "latitude": 36.294555,
-          "longitude": -6.115416,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 701765,
           "name": "Vejer de la Frontera,Unnamed road",
           "category": "Parking día/noche",
@@ -5101,6 +5083,24 @@
           "description": "Parking para caravanas, autocaravanas y campers de 158 plazas, abierto todos los días del año. Parcelas estándar 8x5 para autocaravanas y furgonetas camperizadas y parcelas XXL para caravan con turismo y vehículos de más de 8 metros (XXL incluye electricidad).\r\nIncluido en el precio llenado de aguas, WC y duchas para señoras y caballeros, plazas má",
           "latitude": 36.228529,
           "longitude": -6.066134,
+          "code": "ACC_P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 536726,
+          "name": "Area Autocaravanas Torre Nueva El Palmar Camper Park – Cádiz",
+          "category": "Área autocaravanas",
+          "rating": 3.54,
+          "num_reviews": 71,
+          "distance_km": 5.04,
+          "price": "25 € including electricity",
+          "amenities": "Aguas negras, Aguas grises, WC, Basura, Ducha, Electricidad, Mirador, Baño, Windsurf, BTT, Senderismo",
+          "location": "El Palmar de Vejer, Spain",
+          "url": "https://park4night.com/es/place/536726",
+          "photo": "https://cdn3.park4night.com/lieu/1901201_1901300/1901212_pt.jpg",
+          "description": "Área autocaravanas TORRE NUEVA Camper park El Palmar de Vejer\r\n(con mejoras continuas)",
+          "latitude": 36.235309,
+          "longitude": -6.067539,
           "code": "ACC_P",
           "source": "Park4Night guest API fallback"
         }
