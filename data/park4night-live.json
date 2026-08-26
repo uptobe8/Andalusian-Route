@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-26T13:18:29.406852+00:00",
+  "generated_at": "2026-08-26T20:05:46.878785+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -7499,6 +7499,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 16197,
+          "name": "Cádiz, 5A Calle Campo de las Balas",
+          "category": "Parking día/noche",
+          "rating": 4.0,
+          "num_reviews": 531,
+          "distance_km": 1.885,
+          "price": "14.40€ / 24h",
+          "amenities": "Basura, Mirador, Baño",
+          "location": "Cádiz, Spain",
+          "url": "https://park4night.com/es/place/16197",
+          "photo": "https://cdn3.park4night.com/lieu/1201801_1201900/1201862_pt.jpg",
+          "description": "Aparcamiento al final de la isla junto al castillo con maravillosas vistas al mar y al Castillo de San Sebastia. Muy caro, sin servicio, solo parking vigilado. En la playa hay duchas con agua caliente disponibles por 1€.",
+          "latitude": 36.533501,
+          "longitude": -6.30814,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 518721,
           "name": "Barriada Río San Pedro, 2 Calle Candelero",
           "category": "Parking día/noche",
@@ -7567,24 +7585,6 @@
           "description": "Aparcamiento parque comercial , sin servicio pero amplio y mucho aparcamiento",
           "latitude": 36.59275,
           "longitude": -6.222634,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 16197,
-          "name": "Cádiz, 5A Calle Campo de las Balas",
-          "category": "Parking día/noche",
-          "rating": 3.99,
-          "num_reviews": 530,
-          "distance_km": 1.885,
-          "price": "14.40€ / 24h",
-          "amenities": "Basura, Mirador, Baño",
-          "location": "Cádiz, Spain",
-          "url": "https://park4night.com/es/place/16197",
-          "photo": "https://cdn3.park4night.com/lieu/1201801_1201900/1201862_pt.jpg",
-          "description": "Aparcamiento al final de la isla junto al castillo con maravillosas vistas al mar y al Castillo de San Sebastia. Muy caro, sin servicio, solo parking vigilado. En la playa hay duchas con agua caliente disponibles por 1€.",
-          "latitude": 36.533501,
-          "longitude": -6.30814,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
