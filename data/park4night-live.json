@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-28T22:24:01.511172+00:00",
+  "generated_at": "2026-08-29T07:07:39.185446+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -4511,24 +4511,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 699135,
-          "name": "Camino de Torre Nueva, Vejer de la Frontera",
-          "category": "Parking día/noche",
-          "rating": 5.0,
-          "num_reviews": 1,
-          "distance_km": 5.081,
-          "price": "15 €/24h",
-          "amenities": null,
-          "location": "Vejer de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/699135",
-          "photo": "https://cdn3.park4night.com/lieu/2159401_2159500/2159414_pt.jpg",
-          "description": "Estacionamiento Mixto, lugar plano y próximo a la playa.",
-          "latitude": 36.234419,
-          "longitude": -6.069129,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 98432,
           "name": "Conil de la Frontera, 5Z Avenida de la Música",
           "category": "Parking día/noche",
@@ -4669,6 +4651,24 @@
           "description": "Zona descampado ,se permite pernoctar de día y de noche ,a diez minutos del centro. Farmacia,súper mercado ,etc.",
           "latitude": 36.28469,
           "longitude": -6.086114,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 498848,
+          "name": "Vejer de la Frontera, 8 Avenida Andalucía",
+          "category": "Parking día/noche",
+          "rating": 3.73,
+          "num_reviews": 11,
+          "distance_km": 11.091,
+          "price": "gratuit",
+          "amenities": "Basura",
+          "location": "Vejer de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/498848",
+          "photo": "https://cdn3.park4night.com/lieu/1524901_1525000/1524959_pt.jpg",
+          "description": "Aparcamiento gratuito. En el pueblo, con acceso fácil para autocaravanas. Suelo irregular en ciertas zonas. Bares y oficinas bancarias en la zona. Sin servicios y compartido con coches.",
+          "latitude": 36.251689,
+          "longitude": -5.969143,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -5015,6 +5015,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 699135,
+          "name": "Camino de Torre Nueva, Vejer de la Frontera",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 5.081,
+          "price": "15 €/24h",
+          "amenities": null,
+          "location": "Vejer de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/699135",
+          "photo": "https://cdn3.park4night.com/lieu/2159401_2159500/2159414_pt.jpg",
+          "description": "Estacionamiento Mixto, lugar plano y próximo a la playa.",
+          "latitude": 36.234419,
+          "longitude": -6.069129,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 701765,
           "name": "Vejer de la Frontera,Unnamed road",
           "category": "Parking día/noche",
@@ -5083,24 +5101,6 @@
           "description": "Parking para caravanas, autocaravanas y campers de 158 plazas, abierto todos los días del año. Parcelas estándar 8x5 para autocaravanas y furgonetas camperizadas y parcelas XXL para caravan con turismo y vehículos de más de 8 metros (XXL incluye electricidad).\r\nIncluido en el precio llenado de aguas, WC y duchas para señoras y caballeros, plazas má",
           "latitude": 36.228529,
           "longitude": -6.066134,
-          "code": "ACC_P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 536726,
-          "name": "Area Autocaravanas Torre Nueva El Palmar Camper Park – Cádiz",
-          "category": "Área autocaravanas",
-          "rating": 3.54,
-          "num_reviews": 71,
-          "distance_km": 5.04,
-          "price": "25 € including electricity",
-          "amenities": "Aguas negras, Aguas grises, WC, Basura, Ducha, Electricidad, Mirador, Baño, Windsurf, BTT, Senderismo",
-          "location": "El Palmar de Vejer, Spain",
-          "url": "https://park4night.com/es/place/536726",
-          "photo": "https://cdn3.park4night.com/lieu/1901201_1901300/1901212_pt.jpg",
-          "description": "Área autocaravanas TORRE NUEVA Camper park El Palmar de Vejer\r\n(con mejoras continuas)",
-          "latitude": 36.235309,
-          "longitude": -6.067539,
           "code": "ACC_P",
           "source": "Park4Night guest API fallback"
         }
@@ -5255,24 +5255,6 @@
           "latitude": 36.241699,
           "longitude": -5.96458,
           "code": "APN",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 699135,
-          "name": "Camino de Torre Nueva, Vejer de la Frontera",
-          "category": "Parking día/noche",
-          "rating": 5.0,
-          "num_reviews": 1,
-          "distance_km": 1.403,
-          "price": "15 €/24h",
-          "amenities": null,
-          "location": "Vejer de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/699135",
-          "photo": "https://cdn3.park4night.com/lieu/2159401_2159500/2159414_pt.jpg",
-          "description": "Estacionamiento Mixto, lugar plano y próximo a la playa.",
-          "latitude": 36.234419,
-          "longitude": -6.069129,
-          "code": "P",
           "source": "Park4Night guest API fallback"
         },
         {
@@ -5832,6 +5814,24 @@
           "longitude": -5.961386,
           "code": "P",
           "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 701765,
+          "name": "Vejer de la Frontera,Unnamed road",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 1.015,
+          "price": "12€",
+          "amenities": "WC",
+          "location": "Vejer de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/701765",
+          "photo": null,
+          "description": "Aparcamiento cerca de la playa y tranquilo tiene bar económico",
+          "latitude": 36.216556,
+          "longitude": -6.058031,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
         }
       ],
       "count": 40
@@ -6038,24 +6038,6 @@
           "latitude": 36.241699,
           "longitude": -5.96458,
           "code": "APN",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 699135,
-          "name": "Camino de Torre Nueva, Vejer de la Frontera",
-          "category": "Parking día/noche",
-          "rating": 5.0,
-          "num_reviews": 1,
-          "distance_km": 7.598,
-          "price": "15 €/24h",
-          "amenities": null,
-          "location": "Vejer de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/699135",
-          "photo": "https://cdn3.park4night.com/lieu/2159401_2159500/2159414_pt.jpg",
-          "description": "Estacionamiento Mixto, lugar plano y próximo a la playa.",
-          "latitude": 36.234419,
-          "longitude": -6.069129,
-          "code": "P",
           "source": "Park4Night guest API fallback"
         },
         {
@@ -6561,6 +6543,24 @@
           "longitude": -6.090151,
           "code": "P",
           "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 113317,
+          "name": "Vejer de la Frontera, 3 Calle Zafra",
+          "category": "Parking día/noche",
+          "rating": 2.62,
+          "num_reviews": 24,
+          "distance_km": 8.303,
+          "price": "0 €",
+          "amenities": "Mirador",
+          "location": "Vejer de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/113317",
+          "photo": "https://cdn3.park4night.com/lieu/292601_292700/292613_pt.jpg",
+          "description": "Un lugar de grava libre que es muy adecuado para el estacionamiento y dormir. A unos 50 metros una magnífica vista del casco antiguo.",
+          "latitude": 36.249136,
+          "longitude": -5.963911,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
         }
       ],
       "count": 40
@@ -6788,24 +6788,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 699135,
-          "name": "Camino de Torre Nueva, Vejer de la Frontera",
-          "category": "Parking día/noche",
-          "rating": 5.0,
-          "num_reviews": 1,
-          "distance_km": 9.338,
-          "price": "15 €/24h",
-          "amenities": null,
-          "location": "Vejer de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/699135",
-          "photo": "https://cdn3.park4night.com/lieu/2159401_2159500/2159414_pt.jpg",
-          "description": "Estacionamiento Mixto, lugar plano y próximo a la playa.",
-          "latitude": 36.234419,
-          "longitude": -6.069129,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 361062,
           "name": "Conil de la Frontera, 1A Calle Alcalá del Valle",
           "category": "Parking día/noche",
@@ -6892,6 +6874,24 @@
           "description": "Aparcamiento privado justo en la playa. ¡No utilice el aparcamiento público que hay enfrente! La entrada es la puerta que está al otro lado de la carretera. El propietario o un empleado del quiosco le abrirá. No hay agua ni desagüe. La entrada es estrecha, pero no tuvimos ningún problema con nuestra autocaravana de 6 metros. Muy tranquilo por las n",
           "latitude": 36.182861,
           "longitude": -6.003497,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 469316,
+          "name": "Conil de la Frontera, 4 Calle la Rotonda",
+          "category": "Parking día/noche",
+          "rating": 4.0,
+          "num_reviews": 17,
+          "distance_km": 11.581,
+          "price": "gratuit",
+          "amenities": "Mirador, Baño, Senderismo",
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/469316",
+          "photo": "https://cdn3.park4night.com/lieu/1425701_1425800/1425763_pt.jpg",
+          "description": "Plaza de aparcamiento encima del parque de la Atalaya. A 10min andando de la playa, pequeños restaurantes para desayunar, comer o cenar justo al lado. A 20 minutos del centro histórico a pie. Calle con muy poco tránsito, a la sombra todo el día y muy ventilada. El barrio es muy seguro y tranquilo.",
+          "latitude": 36.27894,
+          "longitude": -6.092505,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
