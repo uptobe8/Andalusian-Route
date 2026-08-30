@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-29T20:57:26.004395+00:00",
+  "generated_at": "2026-08-30T05:28:14.757506+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -4511,6 +4511,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 599994,
+          "name": "Conil de la Frontera, 74 Avenida de los Artesanos",
+          "category": "Parking día/noche",
+          "rating": 5.0,
+          "num_reviews": 1,
+          "distance_km": 2.228,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/599994",
+          "photo": null,
+          "description": "Es solo un polígono donde puedes dormir tranquilo y sin ruidos. Enfrente hay un hospital veterinario abierto 24h",
+          "latitude": 36.28843,
+          "longitude": -6.068027,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 98432,
           "name": "Conil de la Frontera, 5Z Avenida de la Música",
           "category": "Parking día/noche",
@@ -4997,24 +5015,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 599994,
-          "name": "Conil de la Frontera, 74 Avenida de los Artesanos",
-          "category": "Parking día/noche",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 2.228,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/599994",
-          "photo": null,
-          "description": "Es solo un polígono donde puedes dormir tranquilo y sin ruidos. Enfrente hay un hospital veterinario abierto 24h",
-          "latitude": 36.28843,
-          "longitude": -6.068027,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 699135,
           "name": "Camino de Torre Nueva, Vejer de la Frontera",
           "category": "Parking día/noche",
@@ -5272,6 +5272,24 @@
           "description": "Parking público de tierra, bacheado, concurrido y ruidoso, viene gente después de la fiesta y hacen ruido, también la gente temprano para dejar el coche y entre unos y otros... no duermes mucho, pero en Conil hay poca cosa más para aparcar...",
           "latitude": 36.276584,
           "longitude": -6.082093,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 599994,
+          "name": "Conil de la Frontera, 74 Avenida de los Artesanos",
+          "category": "Parking día/noche",
+          "rating": 5.0,
+          "num_reviews": 1,
+          "distance_km": 7.398,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/599994",
+          "photo": null,
+          "description": "Es solo un polígono donde puedes dormir tranquilo y sin ruidos. Enfrente hay un hospital veterinario abierto 24h",
+          "latitude": 36.28843,
+          "longitude": -6.068027,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -5814,24 +5832,6 @@
           "longitude": -5.961386,
           "code": "P",
           "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 701765,
-          "name": "Vejer de la Frontera,Unnamed road",
-          "category": "Parking día/noche",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 1.015,
-          "price": "12€",
-          "amenities": "WC",
-          "location": "Vejer de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/701765",
-          "photo": null,
-          "description": "Aparcamiento cerca de la playa y tranquilo tiene bar económico",
-          "latitude": 36.216556,
-          "longitude": -6.058031,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
         }
       ],
       "count": 40
@@ -6091,6 +6091,24 @@
           "description": "Parking público de tierra, bacheado, concurrido y ruidoso, viene gente después de la fiesta y hacen ruido, también la gente temprano para dejar el coche y entre unos y otros... no duermes mucho, pero en Conil hay poca cosa más para aparcar...",
           "latitude": 36.276584,
           "longitude": -6.082093,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 599994,
+          "name": "Conil de la Frontera, 74 Avenida de los Artesanos",
+          "category": "Parking día/noche",
+          "rating": 5.0,
+          "num_reviews": 1,
+          "distance_km": 12.611,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/599994",
+          "photo": null,
+          "description": "Es solo un polígono donde puedes dormir tranquilo y sin ruidos. Enfrente hay un hospital veterinario abierto 24h",
+          "latitude": 36.28843,
+          "longitude": -6.068027,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -6543,24 +6561,6 @@
           "longitude": -6.090151,
           "code": "P",
           "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 113317,
-          "name": "Vejer de la Frontera, 3 Calle Zafra",
-          "category": "Parking día/noche",
-          "rating": 2.62,
-          "num_reviews": 24,
-          "distance_km": 8.303,
-          "price": "0 €",
-          "amenities": "Mirador",
-          "location": "Vejer de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/113317",
-          "photo": "https://cdn3.park4night.com/lieu/292601_292700/292613_pt.jpg",
-          "description": "Un lugar de grava libre que es muy adecuado para el estacionamiento y dormir. A unos 50 metros una magnífica vista del casco antiguo.",
-          "latitude": 36.249136,
-          "longitude": -5.963911,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
         }
       ],
       "count": 40
@@ -6784,6 +6784,24 @@
           "description": "Solo estaciona en la calle si te echan del parque de arriba, jajaja",
           "latitude": 36.244205,
           "longitude": -5.965059,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 599994,
+          "name": "Conil de la Frontera, 74 Avenida de los Artesanos",
+          "category": "Parking día/noche",
+          "rating": 5.0,
+          "num_reviews": 1,
+          "distance_km": 9.849,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/599994",
+          "photo": null,
+          "description": "Es solo un polígono donde puedes dormir tranquilo y sin ruidos. Enfrente hay un hospital veterinario abierto 24h",
+          "latitude": 36.28843,
+          "longitude": -6.068027,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -7270,24 +7288,6 @@
           "description": "Explanada de tierra irregular pero aceptable para pasar una noche. No es muy ruidosa para estar al lado de la carretera. Por la mañana bastante movimiento de gente que va a la venta a desayunar (se come bien allí).",
           "latitude": 36.25394,
           "longitude": -5.956817,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 71510,
-          "name": "Conil de la Frontera, 1D Calle del Turismo",
-          "category": "Parking día/noche",
-          "rating": 2.5,
-          "num_reviews": 2,
-          "distance_km": 9.708,
-          "price": "",
-          "amenities": null,
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/71510",
-          "photo": null,
-          "description": "Área de limpieza industrial. Buen lugar si sólo quiere tirar de la carretera para dormir. Se pone bastante tranquilo después de aproximadamente 20:00.",
-          "latitude": 36.28955,
-          "longitude": -6.065672,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
