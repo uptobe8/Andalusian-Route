@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T11:57:38.207307+00:00",
+  "generated_at": "2026-08-30T16:43:39.589254+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -518,8 +518,8 @@
           "id": 30289,
           "name": "Granada, Calle Tramo de Unión",
           "category": "Parking día/noche",
-          "rating": 3.13,
-          "num_reviews": 293,
+          "rating": 3.12,
+          "num_reviews": 294,
           "distance_km": 1.814,
           "price": "37,15€/24h / Juni-September 67,85€/24 Std.",
           "amenities": "Basura, Mirador, Senderismo",
