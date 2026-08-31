@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30T21:09:58.996359+00:00",
+  "generated_at": "2026-08-31T05:41:12.524767+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -8903,6 +8903,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 598731,
+          "name": "Sevilla, 1 Avenida Sanlúcar de Barrameda",
+          "category": "Parking día/noche",
+          "rating": 3.8,
+          "num_reviews": 10,
+          "distance_km": 2.378,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Sevilla, Spain",
+          "url": "https://park4night.com/es/place/598731",
+          "photo": "https://cdn3.park4night.com/lieu/1859601_1859700/1859632_pt.jpg",
+          "description": "Un aparcamiento bastante tranquilo con mucha sombra. Está muy cerca del centro histórico para pasear. Pasamos la noche aquí con cuatro autocaravanas sin ningún problema. Gratis.\r\nCerrado temporalmente por la feria.",
+          "latitude": 37.369822,
+          "longitude": -5.996164,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 435248,
           "name": "Sevilla, 53 Calle Ignacio Sánchez Mejías",
           "category": "Parking día/noche",
@@ -8989,24 +9007,6 @@
           "description": "Aparcamientos en avenido ancho. hemos aparcado 2 días y noches sin problemas.",
           "latitude": 37.38883,
           "longitude": -6.000811,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 598731,
-          "name": "Sevilla, 1 Avenida Sanlúcar de Barrameda",
-          "category": "Parking día/noche",
-          "rating": 3.67,
-          "num_reviews": 9,
-          "distance_km": 2.378,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Sevilla, Spain",
-          "url": "https://park4night.com/es/place/598731",
-          "photo": "https://cdn3.park4night.com/lieu/1859601_1859700/1859632_pt.jpg",
-          "description": "Un aparcamiento bastante tranquilo con mucha sombra. Está muy cerca del centro histórico para pasear. Pasamos la noche aquí con cuatro autocaravanas sin ningún problema. Gratis.\r\nCerrado temporalmente por la feria.",
-          "latitude": 37.369822,
-          "longitude": -5.996164,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -9521,24 +9521,6 @@
           "latitude": 37.9167,
           "longitude": -4.780818,
           "code": "PN",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 403350,
-          "name": "Córdoba,N-432",
-          "category": "Picnic",
-          "rating": 2.6,
-          "num_reviews": 5,
-          "distance_km": 6.508,
-          "price": "gratuit",
-          "amenities": "Basura",
-          "location": "Córdoba, Spain",
-          "url": "https://park4night.com/es/place/403350",
-          "photo": "https://cdn3.park4night.com/lieu/1195501_1195600/1195508_pt.jpg",
-          "description": "Pequeña zona con algunos árboles y mesas de picnic junto a la carretera nacional N432: ideal para hacer una pausa. El lugar está separado de la carretera por un terraplén bastante alto, por lo que en caso de reparación creo que podemos pasar la noche allí sin que nos molesten. (No lo he probado).",
-          "latitude": 37.837787,
-          "longitude": -4.741749,
-          "code": "APN",
           "source": "Park4Night guest API fallback"
         },
         {
@@ -10204,6 +10186,24 @@
           "description": "Parking del estadio Arcángel y recinto ferial.Sin servicios pero muy cómodo para acceder desde la autovía. Por la noche pueden resultar molesto los insistentes \"aparcacoches oficiales\".",
           "latitude": 37.873699,
           "longitude": -4.76601,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 657627,
+          "name": "Cordova,Unnamed Road",
+          "category": "Parking día/noche",
+          "rating": 2.67,
+          "num_reviews": 3,
+          "distance_km": 2.757,
+          "price": "gratuit",
+          "amenities": "WC, Basura, Panadería, WiFi",
+          "location": "Cordova, Spain",
+          "url": "https://park4night.com/es/place/657627",
+          "photo": "https://cdn3.park4night.com/lieu/2037501_2037600/2037504_pt.jpg",
+          "description": "Hay un aparcamiento enorme junto a Carrefour. Me alojé aquí dos noches para explorar la ciudad. El supermercado tiene baños públicos y una panadería. Si aparcas en un buen sitio, también puedes disfrutar de wifi gratis. Hay papeleras. El tráfico de alrededor no me molestó y me sentí seguro.",
+          "latitude": 37.89289,
+          "longitude": -4.748544,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
