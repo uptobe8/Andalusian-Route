@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T16:37:49.931327+00:00",
+  "generated_at": "2026-09-02T21:05:49.596442+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -4235,8 +4235,8 @@
           "id": 27493,
           "name": "Área de Servicios Autocaravanas Tarifa-Bolonia",
           "category": "Área privada",
-          "rating": 3.25,
-          "num_reviews": 287,
+          "rating": 3.26,
+          "num_reviews": 288,
           "distance_km": 0.92,
           "price": "15€",
           "amenities": "Agua, Aguas negras, Aguas grises, Basura, Panadería, Electricidad, Mirador, Baño, Windsurf, Senderismo",
