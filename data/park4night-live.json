@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-02T21:05:49.596442+00:00",
+  "generated_at": "2026-09-03T04:37:08.257782+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -877,7 +877,7 @@
           "location": "Cómpeta, Spain",
           "url": "https://park4night.com/es/place/714293",
           "photo": "https://cdn3.park4night.com/lieu/2201801_2201900/2201855_pt.jpg",
-          "description": "Parking lot in nature with the possibility of multiple hiking trails (Torrox River hike starting point). It’s a dirt road to get there, but pretty wide and navigable in campervans and smaller campers. \n\nA little further up the road are more parking spaces. No signs prohibiting overnight parking.",
+          "description": "Aparcamiento en plena naturaleza con posibilidad de acceder a varias rutas de senderismo (punto de partida de la ruta del río Torrox). El acceso es por un camino de tierra, pero bastante ancho y transitable para autocaravanas y caravanas pequeñas.\r\n\r\nUn poco más adelante hay más plazas de aparcamiento. No hay señales que prohíban aparcar durante la",
           "latitude": 36.828011,
           "longitude": -3.941506,
           "code": "PN",
