@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03T21:05:14.837938+00:00",
+  "generated_at": "2026-09-04T04:38:49.208950+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -7589,6 +7589,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 656102,
+          "name": "Calle Ribera del Río, El Puerto de Santa María",
+          "category": "Parking día/noche",
+          "rating": 4.0,
+          "num_reviews": 3,
+          "distance_km": 10.204,
+          "price": "gratuit",
+          "amenities": "Mirador",
+          "location": "El Puerto de Santa María, Spain",
+          "url": "https://park4night.com/es/place/656102",
+          "photo": null,
+          "description": "Parquing de dia. Compartes plazas con coches, asi que sólo las campers o furgonetas pueden estacionar. Abstenerse más de 6m.",
+          "latitude": 36.601119,
+          "longitude": -6.221056,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 148393,
           "name": "El Pinar, 6D Paseo Marítimo",
           "category": "Parking día/noche",
@@ -7999,24 +8017,6 @@
           "description": "Pagado de 9-21. Lugares fáciles de encontrar.",
           "latitude": 36.51816,
           "longitude": -6.284222,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 366372,
-          "name": "San Fernando,",
-          "category": "Parking día/noche",
-          "rating": 2.5,
-          "num_reviews": 2,
-          "distance_km": 9.434,
-          "price": "gratuit",
-          "amenities": "Senderismo",
-          "location": "San Fernando, Spain",
-          "url": "https://park4night.com/es/place/366372",
-          "photo": "https://cdn3.park4night.com/lieu/1077001_1077100/1077074_pt.jpg",
-          "description": "Aparcamiento publico en la parte superior del centro comercial bahia sur de san fernando, justo en la planta baja restaurantes supermercados, y a escasos 50 mt un paseo con vistas a la ciudad de cadiz, muy silencioso y bastante amplio muy recomendable para pernoctar.",
-          "latitude": 36.471933,
-          "longitude": -6.208412,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
