@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-04T11:22:50.025580+00:00",
+  "generated_at": "2026-09-04T16:24:43.375344+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1442,20 +1442,20 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 718041,
-          "name": "Avenida El Calaceite, Torrox",
+          "id": 718228,
+          "name": "Arrayanes, Nerja",
           "category": "Parking día/noche",
           "rating": null,
           "num_reviews": null,
-          "distance_km": 3.459,
+          "distance_km": 3.152,
           "price": "gratuit",
-          "amenities": "Mirador, Baño",
-          "location": "Torrox, Spain",
-          "url": "https://park4night.com/es/place/718041",
-          "photo": "https://cdn3.park4night.com/lieu/2212801_2212900/2212893_pt.jpg",
-          "description": "Aparcamiento junto a carretera. Hay playa al principio. Si lo que quieres es cenar y pasar la noche genial. Pescar se puede, había gente.",
-          "latitude": 36.74115,
-          "longitude": -3.917557,
+          "amenities": "Mirador",
+          "location": "Nerja, Spain",
+          "url": "https://park4night.com/es/place/718228",
+          "photo": null,
+          "description": "Aparcamiento ideal para ver la cueva de Nerja, porque para estancia no es, pues que la playa está lejos, el centro también y aquí arriba no hay nada más que hacer.  Dentro del recinto de la Cueva de Nerja hay un aparcamiento que si dejan entrar AC y Camper pero pernoctar obviamente no, no sé quién habrá reportado la prohibición, puesto que yo he pr",
+          "latitude": 36.760794,
+          "longitude": -3.848561,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
@@ -6203,24 +6203,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 705674,
-          "name": "Conil de la Frontera,C. Paz",
-          "category": "Parking día/noche",
-          "rating": 4.0,
-          "num_reviews": 1,
-          "distance_km": 13.349,
-          "price": "gratuit",
-          "amenities": "WC, Basura, Panadería, Lavandería",
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/705674",
-          "photo": "https://cdn3.park4night.com/lieu/2190801_2190900/2190853_pt.jpg",
-          "description": "Hay mucho espacio para autocaravanas. Cuando llegamos, ya había cinco. Solo aparcamos durante el día, pero creemos que se puede pernoctar allí.",
-          "latitude": 36.285418,
-          "longitude": -6.092094,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 292906,
           "name": "Conil de la Frontera, 10B Avenida de la Música",
           "category": "Parking día/noche",
@@ -6559,6 +6541,24 @@
           "description": "Explanada con zona muy amplia de aparcamiento. La mayoría está al sol pero hay unos huecos en la sombra debajo de unos árboles donde hemos estado aparcados. Está a  3 pasos de un Mercadona",
           "latitude": 36.2832,
           "longitude": -6.090151,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 113317,
+          "name": "Vejer de la Frontera, 3 Calle Zafra",
+          "category": "Parking día/noche",
+          "rating": 2.62,
+          "num_reviews": 24,
+          "distance_km": 8.303,
+          "price": "0 €",
+          "amenities": "Mirador",
+          "location": "Vejer de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/113317",
+          "photo": "https://cdn3.park4night.com/lieu/292601_292700/292613_pt.jpg",
+          "description": "Un lugar de grava libre que es muy adecuado para el estacionamiento y dormir. A unos 50 metros una magnífica vista del casco antiguo.",
+          "latitude": 36.249136,
+          "longitude": -5.963911,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
@@ -7220,24 +7220,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 455321,
-          "name": "Cádiz,3F Camino Chiclana",
-          "category": "Parking día/noche",
-          "rating": 2.67,
-          "num_reviews": 6,
-          "distance_km": 11.507,
-          "price": "gratuit",
-          "amenities": "Mirador, Baño",
-          "location": "Cádiz, Spain",
-          "url": "https://park4night.com/es/place/455321",
-          "photo": "https://cdn3.park4night.com/lieu/1380701_1380800/1380791_pt.jpg",
-          "description": "Explanada con zona muy amplia de aparcamiento. La mayoría está al sol pero hay unos huecos en la sombra debajo de unos árboles donde hemos estado aparcados. Está a  3 pasos de un Mercadona",
-          "latitude": 36.2832,
-          "longitude": -6.090151,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 113317,
           "name": "Vejer de la Frontera, 3 Calle Zafra",
           "category": "Parking día/noche",
@@ -7288,6 +7270,24 @@
           "description": "Área de limpieza industrial. Buen lugar si sólo quiere tirar de la carretera para dormir. Se pone bastante tranquilo después de aproximadamente 20:00.",
           "latitude": 36.28955,
           "longitude": -6.065672,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 515852,
+          "name": "Barbate, 247 Calle Poniente",
+          "category": "Parking día/noche",
+          "rating": 2.2,
+          "num_reviews": 5,
+          "distance_km": 8.733,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Barbate, Spain",
+          "url": "https://park4night.com/es/place/515852",
+          "photo": "https://cdn3.park4night.com/lieu/1587101_1587200/1587117_pt.jpg",
+          "description": "Playa trafalgar. Ser limpios por favor",
+          "latitude": 36.18852,
+          "longitude": -6.023616,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
