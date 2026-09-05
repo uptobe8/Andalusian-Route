@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T10:39:32.572189+00:00",
+  "generated_at": "2026-09-05T15:17:23.788658+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -7736,8 +7736,8 @@
           "id": 117400,
           "name": "Puerto Real, 3 Calle Concepción",
           "category": "Parking día/noche",
-          "rating": 3.54,
-          "num_reviews": 46,
+          "rating": 3.57,
+          "num_reviews": 47,
           "distance_km": 9.1,
           "price": "gratuit",
           "amenities": "Agua, WC, Basura, Ducha, Panadería, WiFi, Baño, Windsurf",
@@ -11594,6 +11594,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 648279,
+          "name": "Calle La Molineta, Almeria",
+          "category": "Parking día/noche",
+          "rating": 2.5,
+          "num_reviews": 6,
+          "distance_km": 1.733,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Almeria, Spain",
+          "url": "https://park4night.com/es/place/648279",
+          "photo": "https://cdn3.park4night.com/lieu/2013601_2013700/2013654_pt.jpg",
+          "description": "Amplio aparcamiento de tierra sin servicios, cerca de varias tiendas y una parada de autobús para visitar la catedral y la fortaleza.",
+          "latitude": 36.84957,
+          "longitude": -2.462847,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 490460,
           "name": "Almería, 222 Camino Jaúl Bajo",
           "category": "Parking día/noche",
@@ -11644,24 +11662,6 @@
           "description": "Amplio parking al lado de Lidl. A 30 minutos andando del casco antiguo. 10 minutos de la playa. No hay sitio para una autocaravana, solo para una furgoneta",
           "latitude": 36.834101,
           "longitude": -2.447027,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 648279,
-          "name": "Calle La Molineta, Almeria",
-          "category": "Parking día/noche",
-          "rating": 2.2,
-          "num_reviews": 5,
-          "distance_km": 1.733,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Almeria, Spain",
-          "url": "https://park4night.com/es/place/648279",
-          "photo": "https://cdn3.park4night.com/lieu/2013601_2013700/2013654_pt.jpg",
-          "description": "Amplio aparcamiento de tierra sin servicios, cerca de varias tiendas y una parada de autobús para visitar la catedral y la fortaleza.",
-          "latitude": 36.84957,
-          "longitude": -2.462847,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
