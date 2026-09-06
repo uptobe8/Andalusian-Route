@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T11:01:31.139538+00:00",
+  "generated_at": "2026-09-06T15:30:18.943802+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -7373,24 +7373,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 542940,
-          "name": "El Puerto de Santa María, 2 Avenida del Descubrimiento",
-          "category": "Parking día/noche",
-          "rating": 5.0,
-          "num_reviews": 2,
-          "distance_km": 8.34,
-          "price": "gratuit",
-          "amenities": "Panadería, Lavandería",
-          "location": "El Puerto de Santa María, Spain",
-          "url": "https://park4night.com/es/place/542940",
-          "photo": "https://cdn3.park4night.com/lieu/2119201_2119300/2119296_pt.jpg",
-          "description": "Aparcamiento gratuito y nivelado. Pasamos una noche en agosto sin ningún problema. La gente pasa por la calle paseando de noche y hablando en voz alta, pasan coches por la carretera, pero a partir de las 00:00 se vuelve más tranquilo. Hay sombra casi todo el día.",
-          "latitude": 36.591581,
-          "longitude": -6.240913,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 303556,
           "name": "San Fernando, 10 Calle Santo Ángel",
           "category": "Parking día/noche",
@@ -7405,6 +7387,24 @@
           "description": "Lugar para pasar día y noche autocaravana",
           "latitude": 36.48236,
           "longitude": -6.198882,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 542940,
+          "name": "El Puerto de Santa María, 2 Avenida del Descubrimiento",
+          "category": "Parking día/noche",
+          "rating": 4.33,
+          "num_reviews": 3,
+          "distance_km": 8.34,
+          "price": "gratuit",
+          "amenities": "Panadería, Lavandería",
+          "location": "El Puerto de Santa María, Spain",
+          "url": "https://park4night.com/es/place/542940",
+          "photo": "https://cdn3.park4night.com/lieu/2119201_2119300/2119296_pt.jpg",
+          "description": "Aparcamiento gratuito y nivelado. Pasamos una noche en agosto sin ningún problema. La gente pasa por la calle paseando de noche y hablando en voz alta, pasan coches por la carretera, pero a partir de las 00:00 se vuelve más tranquilo. Hay sombra casi todo el día.",
+          "latitude": 36.591581,
+          "longitude": -6.240913,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
