@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-05T20:25:26.154060+00:00",
+  "generated_at": "2026-09-06T04:43:55.323949+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1244,24 +1244,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 716477,
-          "name": "Avenida El Calaceite, Torrox",
-          "category": "Parking día/noche",
-          "rating": 3.0,
-          "num_reviews": 1,
-          "distance_km": 3.775,
-          "price": "gratuit",
-          "amenities": "Baño",
-          "location": "Torrox, Spain",
-          "url": "https://park4night.com/es/place/716477",
-          "photo": "https://cdn3.park4night.com/lieu/2208101_2208200/2208116_pt.jpg",
-          "description": "Aparcamiento al lado de la carretera,\n sin alumbrado, pasaron coches hasta las 1:30 aproximadamente y la guardia civil pasó y no nos dijo nada.",
-          "latitude": 36.740831,
-          "longitude": -3.921081,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 586382,
           "name": "Frigiliana, 328 Terreno UA-10",
           "category": "Parking día/noche",
@@ -1456,6 +1438,24 @@
           "description": "Aparcamiento ideal para ver la cueva de Nerja, porque para estancia no es, pues que la playa está lejos, el centro también y aquí arriba no hay nada más que hacer.  Dentro del recinto de la Cueva de Nerja hay un aparcamiento que si dejan entrar AC y Camper pero pernoctar obviamente no, no sé quién habrá reportado la prohibición, puesto que yo he pr",
           "latitude": 36.760794,
           "longitude": -3.848561,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 718041,
+          "name": "Avenida El Calaceite, Torrox",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 3.459,
+          "price": "gratuit",
+          "amenities": "Mirador, Baño",
+          "location": "Torrox, Spain",
+          "url": "https://park4night.com/es/place/718041",
+          "photo": "https://cdn3.park4night.com/lieu/2212801_2212900/2212893_pt.jpg",
+          "description": "Aparcamiento junto a carretera. Hay playa al principio. Si lo que quieres es cenar y pasar la noche genial. Pescar se puede, había gente.",
+          "latitude": 36.74115,
+          "longitude": -3.917557,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
@@ -3575,24 +3575,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 714051,
-          "name": "N-340, Tarifa",
-          "category": "Área privada",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 5.868,
-          "price": "gratuit",
-          "amenities": "Electricidad",
-          "location": "Tarifa, Spain",
-          "url": "https://park4night.com/es/place/714051",
-          "photo": null,
-          "description": "Lugar con marcha",
-          "latitude": 36.053586,
-          "longitude": -5.647977,
-          "code": "ACC_PR",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 554065,
           "name": "Tarifa, 7 Mar Adriatico",
           "category": "DS",
@@ -3644,6 +3626,24 @@
           "latitude": 36.01523,
           "longitude": -5.607136,
           "code": "DS",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 478659,
+          "name": "Cádiz,511 Calle Jimena de la Frontera",
+          "category": "ASS",
+          "rating": 4.75,
+          "num_reviews": 63,
+          "distance_km": 1.428,
+          "price": "",
+          "amenities": "Agua, Aguas negras, Aguas grises, Basura, Windsurf",
+          "location": "Cádiz, Spain",
+          "url": "https://park4night.com/es/place/478659",
+          "photo": "https://cdn3.park4night.com/lieu/1452401_1452500/1452476_pt.jpg",
+          "description": "Área de servicio para autocaravanas en Gasolinera WindFuel justo a la entrada de Tarifa, por lo que es de fácil acceso. Cuenta con un punto de vaciado de aguas negras y grises para autocaravanas/campers, todo muy limpio. Si decides repostar en la gasolinera, estos servicios son gratuitos. Solo está disponible en horario comercial de 8 a 22 horas. S",
+          "latitude": 36.02641,
+          "longitude": -5.60969,
+          "code": "ASS",
           "source": "Park4Night guest API fallback"
         }
       ],
@@ -4250,24 +4250,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 714051,
-          "name": "N-340, Tarifa",
-          "category": "Área privada",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 10.576,
-          "price": "gratuit",
-          "amenities": "Electricidad",
-          "location": "Tarifa, Spain",
-          "url": "https://park4night.com/es/place/714051",
-          "photo": null,
-          "description": "Lugar con marcha",
-          "latitude": 36.053586,
-          "longitude": -5.647977,
-          "code": "ACC_PR",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 142251,
           "name": "Tarifa, 38 El Lentiscal",
           "category": "DS",
@@ -4372,6 +4354,24 @@
           "description": "Está al lado de las dunas y permite visitarlas. Dicen que es un parking “privado” pero simplemente son más caros de lo que creen porque es solo una calle. Pero merece la pena porque en 5 minutos andando estás en las dunas.",
           "latitude": 36.09253,
           "longitude": -5.786782,
+          "code": "PJ",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 544529,
+          "name": "Cañada de la Jara,",
+          "category": "PJ",
+          "rating": 4.43,
+          "num_reviews": 7,
+          "distance_km": 12.23,
+          "price": "gratuit",
+          "amenities": "Mirador, BTT, Senderismo",
+          "location": "Cañada de la Jara, Spain",
+          "url": "https://park4night.com/es/place/544529",
+          "photo": "https://cdn3.park4night.com/lieu/1676101_1676200/1676141_pt.jpg",
+          "description": "Muy bonito rincón de naturaleza preservada a unos quince minutos de Bolonia. Estamos aquí en plena montaña rodeados de alcornoques y pastos para el ganado. las ovejas deambulan libremente.\r\nEstá limpio, no hay basura en el piso, así que deje el lugar como está. \r\nEl lugar es bastante llano y el acceso no presenta ninguna dificultad especial.\r\nEl ca",
+          "latitude": 36.119508,
+          "longitude": -5.633473,
           "code": "PJ",
           "source": "Park4Night guest API fallback"
         }
@@ -5090,8 +5090,8 @@
           "id": 371273,
           "name": "Área Autocaravanas El Palmar Beach",
           "category": "Área autocaravanas",
-          "rating": 3.62,
-          "num_reviews": 354,
+          "rating": 3.61,
+          "num_reviews": 355,
           "distance_km": 5.788,
           "price": "low season 20€, high season 25€",
           "amenities": "Aguas negras, Aguas grises, WC, Basura, Ducha, Panadería, Electricidad, WiFi, Mirador, Baño, Windsurf, BTT, Senderismo",
