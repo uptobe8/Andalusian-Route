@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-06T04:43:55.323949+00:00",
+  "generated_at": "2026-09-06T11:01:31.139538+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1434,7 +1434,7 @@
           "amenities": "Mirador",
           "location": "Nerja, Spain",
           "url": "https://park4night.com/es/place/718228",
-          "photo": null,
+          "photo": "https://cdn3.park4night.com/lieu/2214801_2214900/2214845_pt.jpg",
           "description": "Aparcamiento ideal para ver la cueva de Nerja, porque para estancia no es, pues que la playa está lejos, el centro también y aquí arriba no hay nada más que hacer.  Dentro del recinto de la Cueva de Nerja hay un aparcamiento que si dejan entrar AC y Camper pero pernoctar obviamente no, no sé quién habrá reportado la prohibición, puesto que yo he pr",
           "latitude": 36.760794,
           "longitude": -3.848561,
