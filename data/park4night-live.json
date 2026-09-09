@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-09T04:47:22.146657+00:00",
+  "generated_at": "2026-09-09T11:28:32.291266+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1226,24 +1226,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 718041,
-          "name": "Avenida El Calaceite, Torrox",
-          "category": "Parking día/noche",
-          "rating": 3.0,
-          "num_reviews": 1,
-          "distance_km": 3.459,
-          "price": "gratuit",
-          "amenities": "Mirador, Baño",
-          "location": "Torrox, Spain",
-          "url": "https://park4night.com/es/place/718041",
-          "photo": "https://cdn3.park4night.com/lieu/2212801_2212900/2212893_pt.jpg",
-          "description": "Aparcamiento junto a carretera. Hay playa al principio. Si lo que quieres es cenar y pasar la noche genial. Pescar se puede, había gente.",
-          "latitude": 36.74115,
-          "longitude": -3.917557,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 637082,
           "name": "N-340, Nerja",
           "category": "Parking día/noche",
@@ -1456,6 +1438,24 @@
           "description": "Aparcamiento ideal para ver la cueva de Nerja, porque para estancia no es, pues que la playa está lejos, el centro también y aquí arriba no hay nada más que hacer.  Dentro del recinto de la Cueva de Nerja hay un aparcamiento que si dejan entrar AC y Camper pero pernoctar obviamente no, no sé quién habrá reportado la prohibición, puesto que yo he pr",
           "latitude": 36.760794,
           "longitude": -3.848561,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 718041,
+          "name": "Avenida El Calaceite, Torrox",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 3.459,
+          "price": "gratuit",
+          "amenities": "Mirador, Baño",
+          "location": "Torrox, Spain",
+          "url": "https://park4night.com/es/place/718041",
+          "photo": null,
+          "description": "Aparcamiento junto a carretera. Hay playa al principio. Si lo que quieres es cenar y pasar la noche genial. Pescar se puede, había gente.",
+          "latitude": 36.74115,
+          "longitude": -3.917557,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
@@ -3280,7 +3280,7 @@
           "location": "Tarifa, Spain",
           "url": "https://park4night.com/es/place/285849",
           "photo": "https://cdn3.park4night.com/lieu/813101_813200/813137_pt.jpg",
-          "description": "Calle con aparcamiento junto al campo de fútbol.",
+          "description": "Aparcamiento junto al campo de fútbol.\r\n\r\nProhibido el acceso a vehículos de más de 5 metros.",
           "latitude": 36.023164,
           "longitude": -5.613337,
           "code": "P",
