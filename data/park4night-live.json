@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-10T20:54:51.479410+00:00",
+  "generated_at": "2026-09-11T04:45:25.986576+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -3929,8 +3929,8 @@
           "id": 63827,
           "name": "Barbate, A-2231",
           "category": "Parking día/noche",
-          "rating": 3.38,
-          "num_reviews": 78,
+          "rating": 3.35,
+          "num_reviews": 79,
           "distance_km": 10.617,
           "price": "gratuit",
           "amenities": null,
