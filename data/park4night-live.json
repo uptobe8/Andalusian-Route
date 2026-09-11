@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-11T04:45:25.986576+00:00",
+  "generated_at": "2026-09-11T11:26:48.845678+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -3980,24 +3980,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 409715,
-          "name": "Zahara de los Atunes, 33 Paseo del Pradillo",
-          "category": "Parking día/noche",
-          "rating": 3.2,
-          "num_reviews": 10,
-          "distance_km": 9.173,
-          "price": "gratuit",
-          "amenities": "Baño, Windsurf, BTT, Senderismo",
-          "location": "Zahara de los Atunes, Spain",
-          "url": "https://park4night.com/es/place/409715",
-          "photo": "https://cdn3.park4night.com/lieu/1220701_1220800/1220703_pt.jpg",
-          "description": "Calle tranquila para dormir. Hemos pasado 3 días durante el puente del 1 de Mayo . Habíamos varias autocaravana.",
-          "latitude": 36.1324,
-          "longitude": -5.840272,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 275572,
           "name": "Barbate, 1 Urbanización Colmena",
           "category": "Parking día/noche",
@@ -4012,6 +3994,24 @@
           "description": "Aparcamiento gratuito de día y de noche. Cerca de la playa y de la ciudad. No para relajarse, pero si necesita un lugar para dormir, eso es seguro. Pasamos una noche aquí. El lugar está lleno de gente y se puede escuchar el ruido de los bares, pero no hay multas :) límite de altura 2,2 m",
           "latitude": 36.13067,
           "longitude": -5.840551,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 409715,
+          "name": "Zahara de los Atunes, 33 Paseo del Pradillo",
+          "category": "Parking día/noche",
+          "rating": 3.18,
+          "num_reviews": 11,
+          "distance_km": 9.173,
+          "price": "gratuit",
+          "amenities": "Baño, Windsurf, BTT, Senderismo",
+          "location": "Zahara de los Atunes, Spain",
+          "url": "https://park4night.com/es/place/409715",
+          "photo": "https://cdn3.park4night.com/lieu/1220701_1220800/1220703_pt.jpg",
+          "description": "Calle tranquila para dormir. Hemos pasado 3 días durante el puente del 1 de Mayo . Habíamos varias autocaravana.",
+          "latitude": 36.1324,
+          "longitude": -5.840272,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -10982,24 +10982,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 480390,
-          "name": "Retamar,",
-          "category": "Área pernocta",
-          "rating": 3.0,
-          "num_reviews": 6,
-          "distance_km": 11.414,
-          "price": "gratuit",
-          "amenities": "Mirador, Baño, BTT, Senderismo",
-          "location": "Retamar, Spain",
-          "url": "https://park4night.com/es/place/480390",
-          "photo": "https://cdn3.park4night.com/lieu/1457801_1457900/1457878_pt.jpg",
-          "description": "Perfecta ubicación para 1 o 2 noches y durante el día, ideal para pequeñas autocaravanas o 4x4. Directamente en la playa, muy tranquilo y silencioso. En cada bahía caben de 2 a 4 campistas (T4/T5/Defender e incluso el tamaño Sprinter funciona muy bien. Aquí conduces por un bonito camino de grava arenoso, relativamente plano.",
-          "latitude": 36.837207,
-          "longitude": -2.335505,
-          "code": "OR",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 677086,
           "name": "Almeria,Cuevas de Cjon",
           "category": "Parking día/noche",
@@ -11662,6 +11644,24 @@
           "description": "Amplio parking al lado de Lidl. A 30 minutos andando del casco antiguo. 10 minutos de la playa. No hay sitio para una autocaravana, solo para una furgoneta",
           "latitude": 36.834101,
           "longitude": -2.447027,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 558981,
+          "name": "Castell del Rey, 2D Carretera",
+          "category": "Parking día/noche",
+          "rating": 2.0,
+          "num_reviews": 1,
+          "distance_km": 3.656,
+          "price": "gratuit",
+          "amenities": "Mirador",
+          "location": "Castell del Rey, Spain",
+          "url": "https://park4night.com/es/place/558981",
+          "photo": "https://cdn3.park4night.com/lieu/1723301_1723400/1723337_pt.jpg",
+          "description": "Aparcamiento de grava a lo largo de la carretera, aunque bastante transitado. ¡Pero una hermosa vista, especialmente al atardecer!  Simplemente estacionamos aquí, comimos y luego seguimos.",
+          "latitude": 36.82507,
+          "longitude": -2.503236,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
