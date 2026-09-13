@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-12T20:36:27.016197+00:00",
+  "generated_at": "2026-09-13T04:52:51.671412+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1424,24 +1424,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 718228,
-          "name": "Arrayanes, Nerja",
-          "category": "Parking día/noche",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 3.152,
-          "price": "gratuit",
-          "amenities": "Mirador",
-          "location": "Nerja, Spain",
-          "url": "https://park4night.com/es/place/718228",
-          "photo": "https://cdn3.park4night.com/lieu/2214801_2214900/2214845_pt.jpg",
-          "description": "Aparcamiento ideal para ver la cueva de Nerja, porque para estancia no es, pues que la playa está lejos, el centro también y aquí arriba no hay nada más que hacer.  Dentro del recinto de la Cueva de Nerja hay un aparcamiento que si dejan entrar AC y Camper pero pernoctar obviamente no, no sé quién habrá reportado la prohibición, puesto que yo he pr",
-          "latitude": 36.760794,
-          "longitude": -3.848561,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 718041,
           "name": "Avenida El Calaceite, Torrox",
           "category": "Parking día/noche",
@@ -1456,6 +1438,24 @@
           "description": "Aparcamiento junto a carretera. Hay playa al principio. Si lo que quieres es cenar y pasar la noche genial. Pescar se puede, había gente.",
           "latitude": 36.74115,
           "longitude": -3.917557,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 706828,
+          "name": "Torrox,C. Brisamar",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 6.486,
+          "price": "gratuit",
+          "amenities": "Basura",
+          "location": "Torrox, Spain",
+          "url": "https://park4night.com/es/place/706828",
+          "photo": "https://cdn3.park4night.com/lieu/2216601_2216700/2216674_pt.jpg",
+          "description": "Espacio abierto, terreno público en la zona residencial Tablazo del Parque Torrox. Zona verde. Ubicación muy tranquila con poco ruido. Parece segura, cerca de casas.",
+          "latitude": 36.743684,
+          "longitude": -3.95208,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
@@ -4601,24 +4601,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 486880,
-          "name": "El Colorado,101 Lugar el Colorado",
-          "category": "Parking día/noche",
-          "rating": 3.94,
-          "num_reviews": 17,
-          "distance_km": 6.252,
-          "price": "gratuit",
-          "amenities": "Basura, Panadería",
-          "location": "El Colorado, Spain",
-          "url": "https://park4night.com/es/place/486880",
-          "photo": "https://cdn3.park4night.com/lieu/1480601_1480700/1480651_pt.jpg",
-          "description": "Amplio aparcamiento bajo los pinos cerca del estadio.\r\nNoche tranquila aunque durante el día hay ruido de la carretera.",
-          "latitude": 36.333467,
-          "longitude": -6.091951,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 469316,
           "name": "Conil de la Frontera, 4 Calle la Rotonda",
           "category": "Parking día/noche",
@@ -4669,6 +4651,24 @@
           "description": "Zona descampado ,se permite pernoctar de día y de noche ,a diez minutos del centro. Farmacia,súper mercado ,etc.",
           "latitude": 36.28469,
           "longitude": -6.086114,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 486880,
+          "name": "El Colorado,101 Lugar el Colorado",
+          "category": "Parking día/noche",
+          "rating": 3.78,
+          "num_reviews": 18,
+          "distance_km": 6.252,
+          "price": "gratuit",
+          "amenities": "Basura, Panadería",
+          "location": "El Colorado, Spain",
+          "url": "https://park4night.com/es/place/486880",
+          "photo": "https://cdn3.park4night.com/lieu/1480601_1480700/1480651_pt.jpg",
+          "description": "Amplio aparcamiento bajo los pinos cerca del estadio.\r\nNoche tranquila aunque durante el día hay ruido de la carretera.",
+          "latitude": 36.333467,
+          "longitude": -6.091951,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
