@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-17T04:57:00.169241+00:00",
+  "generated_at": "2026-09-17T11:46:48.218634+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -7790,8 +7790,8 @@
           "id": 58070,
           "name": "Cádiz,  Paseo Almirante Pascual Pery",
           "category": "Parking día/noche",
-          "rating": 3.4,
-          "num_reviews": 95,
+          "rating": 3.42,
+          "num_reviews": 96,
           "distance_km": 1.919,
           "price": "gratuit",
           "amenities": "Basura, Mirador, BTT",
