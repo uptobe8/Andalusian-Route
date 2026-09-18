@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T16:27:55.255990+00:00",
+  "generated_at": "2026-09-18T20:56:35.217607+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -4551,7 +4551,7 @@
           "name": "Conil de la Frontera,  CA-4202",
           "category": "Parking día/noche",
           "rating": 4.03,
-          "num_reviews": 123,
+          "num_reviews": 124,
           "distance_km": 5.947,
           "price": "",
           "amenities": null,
