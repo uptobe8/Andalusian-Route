@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-18T11:20:52.689616+00:00",
+  "generated_at": "2026-09-18T16:27:55.255990+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -11711,24 +11711,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 712553,
-          "name": "Carretera de Malpica, Punta Umbría",
-          "category": "Naturaleza",
-          "rating": 3.0,
-          "num_reviews": 2,
-          "distance_km": 9.408,
-          "price": "gratuit",
-          "amenities": "BTT, Senderismo",
-          "location": "Punta Umbría, Spain",
-          "url": "https://park4night.com/es/place/712553",
-          "photo": "https://cdn3.park4night.com/lieu/2196701_2196800/2196795_pt.jpg",
-          "description": "Excelente lugar debajo de la ermita, súper tranquilo justo al lado del carril bici.\r\n\r\nLa carretera no está lejos, ¡pero apenas se oye!\r\n\r\n¡Muchos rincones con sombra y terreno llano!\r\n\r\nAccesible para todo tipo de vehículos (autocaravana, furgoneta, coche, etc.).",
-          "latitude": 37.221042,
-          "longitude": -7.038109,
-          "code": "PN",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 530475,
           "name": "Laguna de El Portil,Unnamed road",
           "category": "Naturaleza",
@@ -12067,6 +12049,24 @@
           "description": "Este es un estacionamiento abierto y gratuito con grifo de agua gratis. Se siente seguro y se recupera del viento con mal tiempo, en comparación con el mar.",
           "latitude": 37.202302,
           "longitude": -6.924005,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 431557,
+          "name": "Punta Umbría, 1A Plaza del Cantábrico",
+          "category": "Parking día/noche",
+          "rating": 3.76,
+          "num_reviews": 21,
+          "distance_km": 9.606,
+          "price": "2€/24",
+          "amenities": "Basura, Ducha",
+          "location": "Punta Umbría, Spain",
+          "url": "https://park4night.com/es/place/431557",
+          "photo": "https://cdn3.park4night.com/lieu/1304001_1304100/1304084_pt.jpg",
+          "description": "Plaza del Cantábrico, amplia y con muchas plazas disponibles. zona azul",
+          "latitude": 37.176222,
+          "longitude": -6.962806,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
