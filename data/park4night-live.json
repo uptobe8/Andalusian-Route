@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-20T20:51:54.874032+00:00",
+  "generated_at": "2026-09-21T05:01:22.032589+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -866,24 +866,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 721997,
-          "name": "A-7207, Torrox",
-          "category": "Naturaleza",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 9.635,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Torrox, Spain",
-          "url": "https://park4night.com/es/place/721997",
-          "photo": null,
-          "description": "Lugar en plena naturaleza al lado del comienzo de ruta no tiene sombra para el verano solo pernoctar",
-          "latitude": 36.812126,
-          "longitude": -3.950622,
-          "code": "PN",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 714293,
           "name": "Cómpeta, La Axarquía",
           "category": "Naturaleza",
@@ -1456,6 +1438,24 @@
           "description": "Aparcamiento junto a carretera. Hay playa al principio. Si lo que quieres es cenar y pasar la noche genial. Pescar se puede, había gente.",
           "latitude": 36.74115,
           "longitude": -3.917557,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 706828,
+          "name": "Torrox,C. Brisamar",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 6.486,
+          "price": "gratuit",
+          "amenities": "Basura",
+          "location": "Torrox, Spain",
+          "url": "https://park4night.com/es/place/706828",
+          "photo": "https://cdn3.park4night.com/lieu/2216601_2216700/2216674_pt.jpg",
+          "description": "Espacio abierto, terreno público en la zona residencial Tablazo del Parque Torrox. Zona verde. Ubicación muy tranquila con poco ruido. Parece segura, cerca de casas.",
+          "latitude": 36.743684,
+          "longitude": -3.95208,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
