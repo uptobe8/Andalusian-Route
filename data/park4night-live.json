@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-24T04:56:53.305526+00:00",
+  "generated_at": "2026-09-24T11:51:21.703603+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -3633,7 +3633,7 @@
           "name": "Cádiz,511 Calle Jimena de la Frontera",
           "category": "ASS",
           "rating": 4.75,
-          "num_reviews": 64,
+          "num_reviews": 65,
           "distance_km": 1.428,
           "price": "",
           "amenities": "Agua, Aguas negras, Aguas grises, Basura, Windsurf",
