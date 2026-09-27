@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-27T12:07:42.384264+00:00",
+  "generated_at": "2026-09-27T17:00:36.694826+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -10256,8 +10256,8 @@
           "id": 583557,
           "name": "Tenteson 2ª Fase,Unnamed Road",
           "category": "Picnic",
-          "rating": 4.5,
-          "num_reviews": 4,
+          "rating": 4.4,
+          "num_reviews": 5,
           "distance_km": 7.161,
           "price": "gratuit",
           "amenities": "Basura, Mirador, Senderismo",
