@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T12:40:14.538719+00:00",
+  "generated_at": "2026-09-30T22:19:38.730459+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -8444,6 +8444,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 286570,
+          "name": "Jerez de la Frontera, 2 Avenida Chema Rodriguez",
+          "category": "Parking día/noche",
+          "rating": 3.35,
+          "num_reviews": 17,
+          "distance_km": 0.726,
+          "price": "gratuit",
+          "amenities": "Basura",
+          "location": "Jerez de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/286570",
+          "photo": "https://cdn3.park4night.com/lieu/874401_874500/874466_pt.jpg",
+          "description": "Aparcamiento estabilizado frente al polideportivo de Jesez de la Frontera. No te preocupes por pasar la noche allí, a diferencia del otro estacionamiento que ofrece la aplicación, que se encuentra en un estacionamiento cerrado por la noche.",
+          "latitude": 36.69037,
+          "longitude": -6.121466,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 212281,
           "name": "Jerez de la Frontera, 8 Avenida Duque de Abrantes",
           "category": "Parking día/noche",
@@ -8458,24 +8476,6 @@
           "description": "Aparcamiento junto al centro comercial MERCA 80. Tranquilo y espacioso. Soleado. Muy cerca de la escuela de equitación. El centro está a 20 minutos a pie. Supermercado, panadería, mercado asiático, ferretería, peluquería, óptica, etc. Lugares para desayunar y tapear. Brasserie, restaurante italiano, kebab. Gasolinera, venta de butano y recarga de a",
           "latitude": 36.69578,
           "longitude": -6.134743,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 286570,
-          "name": "Jerez de la Frontera, 2 Avenida Chema Rodriguez",
-          "category": "Parking día/noche",
-          "rating": 3.31,
-          "num_reviews": 16,
-          "distance_km": 0.726,
-          "price": "gratuit",
-          "amenities": "Basura",
-          "location": "Jerez de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/286570",
-          "photo": "https://cdn3.park4night.com/lieu/874401_874500/874466_pt.jpg",
-          "description": "Aparcamiento estabilizado frente al polideportivo de Jesez de la Frontera. No te preocupes por pasar la noche allí, a diferencia del otro estacionamiento que ofrece la aplicación, que se encuentra en un estacionamiento cerrado por la noche.",
-          "latitude": 36.69037,
-          "longitude": -6.121466,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -10136,24 +10136,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 646395,
-          "name": "Calle Compositor Wagner, Cordova",
-          "category": "Parking día/noche",
-          "rating": 3.0,
-          "num_reviews": 1,
-          "distance_km": 6.0,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Cordova, Spain",
-          "url": "https://park4night.com/es/place/646395",
-          "photo": "https://cdn3.park4night.com/lieu/2028901_2029000/2028945_pt.jpg",
-          "description": "Aparcamiento tranquilo al lado de la calle. Parece que se preparó una zona industrial, pero solo las calles estaban preparadas y los terrenos aún no se habían vendido. Pasé una noche muy tranquila allí.",
-          "latitude": 37.87091,
-          "longitude": -4.844153,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 566996,
           "name": "Córdoba, 3 Avenida Linneo",
           "category": "Parking día/noche",
@@ -10204,6 +10186,24 @@
           "description": "Hay un aparcamiento enorme junto a Carrefour. Me alojé aquí dos noches para explorar la ciudad. El supermercado tiene baños públicos y una panadería. Si aparcas en un buen sitio, también puedes disfrutar de wifi gratis. Hay papeleras. El tráfico de alrededor no me molestó y me sentí seguro.",
           "latitude": 37.89289,
           "longitude": -4.748544,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 298559,
+          "name": "Córdoba, 6 Calle Escritor Sebastián Cuevas",
+          "category": "Parking día/noche",
+          "rating": 2.5,
+          "num_reviews": 4,
+          "distance_km": 1.373,
+          "price": "gratuit",
+          "amenities": "Senderismo",
+          "location": "Córdoba, Spain",
+          "url": "https://park4night.com/es/place/298559",
+          "photo": "https://cdn3.park4night.com/lieu/1203801_1203900/1203874_pt.jpg",
+          "description": "? Plaza de parking cerca del centro de Córdoba (a 1,2 km de la Mezquita). También hay una serie de campistas para pasar la noche.",
+          "latitude": 37.87986,
+          "longitude": -4.767856,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
