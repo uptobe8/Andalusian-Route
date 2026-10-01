@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30T22:19:38.730459+00:00",
+  "generated_at": "2026-10-01T06:01:12.768866+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -12164,8 +12164,8 @@
           "id": 264409,
           "name": "La Rábida,  Carretera Palos Rábida",
           "category": "Parking día/noche",
-          "rating": 3.56,
-          "num_reviews": 16,
+          "rating": 3.53,
+          "num_reviews": 17,
           "distance_km": 6.597,
           "price": "gratuit",
           "amenities": "WC, Basura, BTT",
