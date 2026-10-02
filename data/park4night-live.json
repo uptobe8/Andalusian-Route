@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T05:44:04.553350+00:00",
+  "generated_at": "2026-10-02T12:41:46.336281+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1370,6 +1370,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 724463,
+          "name": "Nerja,C. Antonio Ferrandis Chanquete",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 0.306,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Nerja, Spain",
+          "url": "https://park4night.com/es/place/724463",
+          "photo": "https://cdn3.park4night.com/lieu/2232301_2232400/2232302_pt.jpg",
+          "description": "Bolsa de aparcamiento con muchas plazas a la sombra",
+          "latitude": 36.746346,
+          "longitude": -3.882766,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 680563,
           "name": "Calle Mérida, Nerja",
           "category": "Parking día/noche",
@@ -1438,24 +1456,6 @@
           "description": "Aparcamiento junto a carretera. Hay playa al principio. Si lo que quieres es cenar y pasar la noche genial. Pescar se puede, había gente.",
           "latitude": 36.74115,
           "longitude": -3.917557,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 706828,
-          "name": "Torrox,C. Brisamar",
-          "category": "Parking día/noche",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 6.486,
-          "price": "gratuit",
-          "amenities": "Basura",
-          "location": "Torrox, Spain",
-          "url": "https://park4night.com/es/place/706828",
-          "photo": "https://cdn3.park4night.com/lieu/2216601_2216700/2216674_pt.jpg",
-          "description": "Espacio abierto, terreno público en la zona residencial Tablazo del Parque Torrox. Zona verde. Ubicación muy tranquila con poco ruido. Parece segura, cerca de casas.",
-          "latitude": 36.743684,
-          "longitude": -3.95208,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
@@ -2630,24 +2630,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 396525,
-          "name": "Ronda, 20 Calle Francisco de Goya y Lucientes",
-          "category": "Parking día/noche",
-          "rating": 3.92,
-          "num_reviews": 13,
-          "distance_km": 1.311,
-          "price": "gratuit",
-          "amenities": "Basura",
-          "location": "Ronda, Spain",
-          "url": "https://park4night.com/es/place/396525",
-          "photo": "https://cdn3.park4night.com/lieu/1171901_1172000/1171984_pt.jpg",
-          "description": "Estacionamiento gratuito a lo largo de la carretera debajo del sitio de RV cuando el sitio está lleno. Justo en el estadio. Ligeramente inclinado, no hay problema para los durmientes cruzados.\r\n30 minutos a pie del casco antiguo. Cada domingo mercado enfrente en el recinto ferial.",
-          "latitude": 36.751159,
-          "longitude": -5.147856,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 168253,
           "name": "Acinipo (Roman town, archaeological site)",
           "category": "Parking día/noche",
@@ -2662,6 +2644,24 @@
           "description": "Estacionamiento de las ruinas de Acinipo, las ruinas solo abren por la mañana hasta las 2.30 p.m. Simplemente hacemos un picnic, pero creo que es posible dormir sin problemas. Aparcamiento en plena naturaleza. Accesible a autocaravanas. Sin ningún servicio, por favor deje con su basura.",
           "latitude": 36.8323,
           "longitude": -5.236403,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 396525,
+          "name": "Ronda, 20 Calle Francisco de Goya y Lucientes",
+          "category": "Parking día/noche",
+          "rating": 3.86,
+          "num_reviews": 14,
+          "distance_km": 1.311,
+          "price": "gratuit",
+          "amenities": "Basura",
+          "location": "Ronda, Spain",
+          "url": "https://park4night.com/es/place/396525",
+          "photo": "https://cdn3.park4night.com/lieu/1171901_1172000/1171984_pt.jpg",
+          "description": "Estacionamiento gratuito a lo largo de la carretera debajo del sitio de RV cuando el sitio está lleno. Justo en el estadio. Ligeramente inclinado, no hay problema para los durmientes cruzados.\r\n30 minutos a pie del casco antiguo. Cada domingo mercado enfrente en el recinto ferial.",
+          "latitude": 36.751159,
+          "longitude": -5.147856,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
