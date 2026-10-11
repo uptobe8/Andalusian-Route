@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10T21:48:08.753621+00:00",
+  "generated_at": "2026-10-11T05:52:37.287550+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -2724,7 +2724,7 @@
           "name": "Setenil de las Bodegas, 1 Calle Camilo José Cela",
           "category": "Parking día/noche",
           "rating": 3.76,
-          "num_reviews": 49,
+          "num_reviews": 50,
           "distance_km": 13.038,
           "price": "gratuit",
           "amenities": "Mirador, BTT, Senderismo",
