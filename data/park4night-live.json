@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-14T17:15:37.340677+00:00",
+  "generated_at": "2026-10-14T21:44:26.659961+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -7409,6 +7409,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 36586,
+          "name": "El Puerto de Santa María, 1B Calle del Litoral",
+          "category": "Parking día/noche",
+          "rating": 4.28,
+          "num_reviews": 29,
+          "distance_km": 7.627,
+          "price": "gratuit",
+          "amenities": "Basura, Ducha, Baño, Windsurf, BTT",
+          "location": "El Puerto de Santa María, Spain",
+          "url": "https://park4night.com/es/place/36586",
+          "photo": "https://cdn3.park4night.com/lieu/277601_277700/277639_pt.jpg",
+          "description": "Parking abierto a todo tipo de vehículos. Sin servicios. Bien para ir a la playa, por la noche es tranquilo pero estarás solo.",
+          "latitude": 36.570512,
+          "longitude": -6.222488,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 263913,
           "name": "El Puerto de Santa María, 2 Calle de la Luz",
           "category": "Parking día/noche",
@@ -7423,24 +7441,6 @@
           "description": "Buen parking para pasar la noche, tranquilo y en primera linea de playa. Hay aparcamiento en los laterales amplio, para dejar la AC. Al fondo, frente al mar, hay plazas grandes tambien. Gratuito.",
           "latitude": 36.572164,
           "longitude": -6.222766,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 36586,
-          "name": "El Puerto de Santa María, 1B Calle del Litoral",
-          "category": "Parking día/noche",
-          "rating": 4.25,
-          "num_reviews": 28,
-          "distance_km": 7.627,
-          "price": "gratuit",
-          "amenities": "Basura, Ducha, Baño, Windsurf, BTT",
-          "location": "El Puerto de Santa María, Spain",
-          "url": "https://park4night.com/es/place/36586",
-          "photo": "https://cdn3.park4night.com/lieu/277601_277700/277639_pt.jpg",
-          "description": "Parking abierto a todo tipo de vehículos. Sin servicios. Bien para ir a la playa, por la noche es tranquilo pero estarás solo.",
-          "latitude": 36.570512,
-          "longitude": -6.222488,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
