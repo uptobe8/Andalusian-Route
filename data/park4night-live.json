@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T10:49:46.745189+00:00",
+  "generated_at": "2026-10-17T15:39:11.272661+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1472,8 +1472,8 @@
           "id": 476455,
           "name": "Málaga,",
           "category": "Naturaleza",
-          "rating": 3.77,
-          "num_reviews": 31,
+          "rating": 3.78,
+          "num_reviews": 32,
           "distance_km": 3.784,
           "price": "gratuit",
           "amenities": "Mirador, BTT, Senderismo",
@@ -5744,24 +5744,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 482791,
-          "name": "La Barca de Vejer,A-314",
-          "category": "Parking día/noche",
-          "rating": 2.5,
-          "num_reviews": 4,
-          "distance_km": 10.521,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "La Barca de Vejer, Spain",
-          "url": "https://park4night.com/es/place/482791",
-          "photo": "https://cdn3.park4night.com/lieu/1466801_1466900/1466883_pt.jpg",
-          "description": "Explanada de tierra irregular pero aceptable para pasar una noche. No es muy ruidosa para estar al lado de la carretera. Por la mañana bastante movimiento de gente que va a la venta a desayunar (se come bien allí).",
-          "latitude": 36.25394,
-          "longitude": -5.956817,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 515852,
           "name": "Barbate, 247 Calle Poniente",
           "category": "Parking día/noche",
@@ -5830,6 +5812,24 @@
           "description": "Zona de aparcamiento a las afueras de Vejer. Al lado de un parque Zona muy tranquila con poco tráfico.",
           "latitude": 36.247733,
           "longitude": -5.961386,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 701765,
+          "name": "Vejer de la Frontera,Unnamed road",
+          "category": "Parking día/noche",
+          "rating": null,
+          "num_reviews": null,
+          "distance_km": 1.015,
+          "price": "12€",
+          "amenities": "WC",
+          "location": "Vejer de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/701765",
+          "photo": null,
+          "description": "Aparcamiento cerca de la playa y tranquilo tiene bar económico",
+          "latitude": 36.216556,
+          "longitude": -6.058031,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
@@ -6127,24 +6127,6 @@
           "description": "Gran parking, cerca del centro. Tiendas, parque infantil todo muy cerca. Sin sombra. No aparcar en viernes, mercado semanal.",
           "latitude": 36.28352,
           "longitude": -6.084133,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 705674,
-          "name": "Conil de la Frontera,C. Paz",
-          "category": "Parking día/noche",
-          "rating": 4.0,
-          "num_reviews": 1,
-          "distance_km": 13.349,
-          "price": "gratuit",
-          "amenities": "WC, Basura, Panadería, Lavandería",
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/705674",
-          "photo": "https://cdn3.park4night.com/lieu/2190801_2190900/2190853_pt.jpg",
-          "description": "Hay mucho espacio para autocaravanas. Cuando llegamos, ya había cinco. Solo aparcamos durante el día, pero creemos que se puede pernoctar allí.",
-          "latitude": 36.285418,
-          "longitude": -6.092094,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -6561,6 +6543,24 @@
           "longitude": -5.956817,
           "code": "P",
           "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 71510,
+          "name": "Conil de la Frontera, 1D Calle del Turismo",
+          "category": "Parking día/noche",
+          "rating": 2.5,
+          "num_reviews": 2,
+          "distance_km": 12.641,
+          "price": "",
+          "amenities": null,
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/71510",
+          "photo": null,
+          "description": "Área de limpieza industrial. Buen lugar si sólo quiere tirar de la carretera para dormir. Se pone bastante tranquilo después de aproximadamente 20:00.",
+          "latitude": 36.28955,
+          "longitude": -6.065672,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
         }
       ],
       "count": 40
@@ -6968,24 +6968,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 564247,
-          "name": "Conil de la Frontera,1A Camino Chiclana",
-          "category": "Parking día/noche",
-          "rating": 3.5,
-          "num_reviews": 4,
-          "distance_km": 11.499,
-          "price": "gratuit",
-          "amenities": "Basura, Ducha, Mirador, BTT, Senderismo",
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/564247",
-          "photo": "https://cdn3.park4night.com/lieu/1742501_1742600/1742507_pt.jpg",
-          "description": "Amplio aparcamiento en calle sin salida junto al polideportivo Torre de Guzmán. Mercadona a 100 metros. Recipiente.\r\n\r\nHay una piscina cubierta justo encima del campo de fútbol. Puedes ducharte allí por 3€. Tenga en cuenta que solo se puede pagar con tarjeta.",
-          "latitude": 36.28677,
-          "longitude": -6.088602,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 277515,
           "name": "Barbate,  Carretera Arroyo San Ambrosio",
           "category": "Parking día/noche",
@@ -7288,6 +7270,24 @@
           "description": "Parking muy cerca del centro de Conil. Se pueden aparcar furgonetas y autocaravanas sin problema. Parcela para unos 30 vehículos. Zona tranquila pero sin servicios aunque tienen comercios bastante cerca andando.",
           "latitude": 36.27538,
           "longitude": -6.082418,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 102305,
+          "name": "Vejer de la Frontera, 5 Calle Juan Ramón Jimenez",
+          "category": "Parking día/noche",
+          "rating": 2.0,
+          "num_reviews": 1,
+          "distance_km": 0.778,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Vejer de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/102305",
+          "photo": null,
+          "description": "Zona de aparcamiento a las afueras de Vejer. Al lado de un parque Zona muy tranquila con poco tráfico.",
+          "latitude": 36.247733,
+          "longitude": -5.961386,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
