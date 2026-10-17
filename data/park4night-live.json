@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-17T15:39:11.272661+00:00",
+  "generated_at": "2026-10-17T20:39:25.853359+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -8849,24 +8849,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 313439,
-          "name": "Sevilla, 15 Ronda de los Tejares",
-          "category": "Parking día/noche",
-          "rating": 4.0,
-          "num_reviews": 11,
-          "distance_km": 2.581,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Sevilla, Spain",
-          "url": "https://park4night.com/es/place/313439",
-          "photo": "https://cdn3.park4night.com/lieu/889001_889100/889083_pt.jpg",
-          "description": "Parque normal cerca de zona residencial. mucho estacionamiento, y bueno para autovans grandes. seguro y tranquilo. algunas tiendas alrededor. 41 minutos a pie del centro de 21 a pie más autobús.",
-          "latitude": 37.386441,
-          "longitude": -6.013522,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 171996,
           "name": "Sevilla, 1 Glorieta de las Cigarreras",
           "category": "Parking día/noche",
@@ -8917,6 +8899,24 @@
           "description": "Avda de la Guardia Civil.  Situado justo al lado de la Plaza de América,  y a 10 minutos del centro de la cidad.  Fácil aparcamiento para turismos,  incluso en plena Semana Santa. Hemos dormido con nuestra furgo camper,  e incluso una autocaravana también. Hay una comisaria de la Guardia Civil en la misma calle,  pero no ha habido problemas en pasa",
           "latitude": 37.3694,
           "longitude": -5.9867,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 313439,
+          "name": "Sevilla, 15 Ronda de los Tejares",
+          "category": "Parking día/noche",
+          "rating": 3.83,
+          "num_reviews": 12,
+          "distance_km": 2.581,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Sevilla, Spain",
+          "url": "https://park4night.com/es/place/313439",
+          "photo": "https://cdn3.park4night.com/lieu/889001_889100/889083_pt.jpg",
+          "description": "Parque normal cerca de zona residencial. mucho estacionamiento, y bueno para autovans grandes. seguro y tranquilo. algunas tiendas alrededor. 41 minutos a pie del centro de 21 a pie más autobús.",
+          "latitude": 37.386441,
+          "longitude": -6.013522,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
