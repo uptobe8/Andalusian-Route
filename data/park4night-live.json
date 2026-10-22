@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-21T21:45:56.882092+00:00",
+  "generated_at": "2026-10-22T04:54:56.542597+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -115,6 +115,24 @@
           "description": "Aparcamiento a nivel en zona residencial. La oficina de bienestar social está enfrente.\r\nLa calle aquí es un callejón sin salida, por lo que apenas hay tráfico.\r\nPapelera justo al lado. LIDL y también Mercadona a poca distancia. Mercadona dispone de aseo y microondas.",
           "latitude": 37.156578,
           "longitude": -3.606598,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 161335,
+          "name": "Urbanización los Vergeles, 62 Carretera Granada",
+          "category": "Parking día/noche",
+          "rating": 4.38,
+          "num_reviews": 13,
+          "distance_km": 2.749,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Urbanización los Vergeles, Spain",
+          "url": "https://park4night.com/es/place/161335",
+          "photo": "https://cdn3.park4night.com/lieu/881301_881400/881367_pt.jpg",
+          "description": "Estacionamiento al borde de un camino bastante tranquilo. Dormimos una noche sin ningún problema. posibilidad de ir a ver los lugares históricos a pie. Supermercado Carrefour al lado.",
+          "latitude": 37.154107,
+          "longitude": -3.609351,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -709,24 +727,6 @@
           "description": "Aparcamiento gratuito sin altavoz o límite de altura. 20 minutos desde el comienzo del centro de la ciudad a pie.",
           "latitude": 37.172473,
           "longitude": -3.612465,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 481145,
-          "name": "Granada, 3 Camino de Caicena",
-          "category": "Parking día/noche",
-          "rating": 2.0,
-          "num_reviews": 1,
-          "distance_km": 2.671,
-          "price": "gratuit",
-          "amenities": "Basura, Senderismo",
-          "location": "Granada, Spain",
-          "url": "https://park4night.com/es/place/481145",
-          "photo": "https://cdn3.park4night.com/lieu/1460401_1460500/1460486_pt.jpg",
-          "description": "Muchos espacios libres a lo largo de la calle. Cerca de la autopista. A veces incluso un poco empinado.",
-          "latitude": 37.157767,
-          "longitude": -3.581046,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
