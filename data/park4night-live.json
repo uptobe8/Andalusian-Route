@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T21:27:16.588841+00:00",
+  "generated_at": "2026-10-24T04:42:01.444363+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -11216,6 +11216,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 314080,
+          "name": "El Bobar,",
+          "category": "Parking día/noche",
+          "rating": 3.69,
+          "num_reviews": 13,
+          "distance_km": 3.493,
+          "price": "gratuit",
+          "amenities": "BTT, Senderismo",
+          "location": "El Bobar, Spain",
+          "url": "https://park4night.com/es/place/314080",
+          "photo": "https://cdn3.park4night.com/lieu/1173201_1173300/1173261_pt.jpg",
+          "description": "Aparcamiento al lado de un parque. También es adecuado para campistas grandes.",
+          "latitude": 36.81794,
+          "longitude": -2.42997,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 378845,
           "name": "Almería,659 Colegio Ur la Parra",
           "category": "Parking día/noche",
@@ -11230,24 +11248,6 @@
           "description": "Un aparcamiento de grava llano junto al agua. Ideal para pasar la noche. El acceso por el pequeño camino de grava puede ser complicado después de la lluvia. Sin embargo, hay un segundo acceso al lado del Diverhotel.",
           "latitude": 36.823906,
           "longitude": -2.526765,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 314080,
-          "name": "El Bobar,",
-          "category": "Parking día/noche",
-          "rating": 3.58,
-          "num_reviews": 12,
-          "distance_km": 3.493,
-          "price": "gratuit",
-          "amenities": "BTT, Senderismo",
-          "location": "El Bobar, Spain",
-          "url": "https://park4night.com/es/place/314080",
-          "photo": "https://cdn3.park4night.com/lieu/1173201_1173300/1173261_pt.jpg",
-          "description": "Aparcamiento al lado de un parque. También es adecuado para campistas grandes.",
-          "latitude": 36.81794,
-          "longitude": -2.42997,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
