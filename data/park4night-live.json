@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-25T16:27:44.552320+00:00",
+  "generated_at": "2026-10-25T20:54:38.175080+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -8813,24 +8813,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 553220,
-          "name": "Sevilla, 4 Calle Juglar",
-          "category": "Parking día/noche",
-          "rating": 4.57,
-          "num_reviews": 7,
-          "distance_km": 0.312,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Sevilla, Spain",
-          "url": "https://park4night.com/es/place/553220",
-          "photo": "https://cdn3.park4night.com/lieu/1704801_1704900/1704852_pt.jpg",
-          "description": "Pequeño aparcamiento gratuito en una calle sin salida con edificios de viviendas alrededor, hay que tener suerte. Pero poco ruido aunque la arteria principal está a 50m, llano y a 10 minutos andando del centro histórico, 20 minutos de la Plaza de España. En definitiva, excelente ubicación en esta ciudad que es complicada para aparcar.",
-          "latitude": 37.38704,
-          "longitude": -5.982108,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 393996,
           "name": "Sevilla, 6 Calle Tren de los Panaderos",
           "category": "Parking día/noche",
@@ -8845,6 +8827,24 @@
           "description": "Un aparcamiento vigilado y de pago. Si habla con el servicio, puede obtener un pase de un día. Si desea extenderlo, debe pagar, conducir en un círculo y obtener una nueva tarjeta y hablar con el camarero. También hay amplias plazas de aparcamiento para casas móviles. Pero no sé lo fácil que es llegar por las calles estrechas. Solo caben vehículos c",
           "latitude": 37.380281,
           "longitude": -5.982019,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 553220,
+          "name": "Sevilla, 4 Calle Juglar",
+          "category": "Parking día/noche",
+          "rating": 4.12,
+          "num_reviews": 8,
+          "distance_km": 0.312,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Sevilla, Spain",
+          "url": "https://park4night.com/es/place/553220",
+          "photo": "https://cdn3.park4night.com/lieu/1704801_1704900/1704852_pt.jpg",
+          "description": "Pequeño aparcamiento gratuito en una calle sin salida con edificios de viviendas alrededor, hay que tener suerte. Pero poco ruido aunque la arteria principal está a 50m, llano y a 10 minutos andando del centro histórico, 20 minutos de la Plaza de España. En definitiva, excelente ubicación en esta ciudad que es complicada para aparcar.",
+          "latitude": 37.38704,
+          "longitude": -5.982108,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
