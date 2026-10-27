@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T22:42:31.723410+00:00",
+  "generated_at": "2026-10-27T05:11:16.053562+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
