@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T22:18:21.018532+00:00",
+  "generated_at": "2026-10-28T05:47:59.080064+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -11255,8 +11255,8 @@
           "id": 645002,
           "name": "Paseo Marítimo Carmen de Burgos, Almeria",
           "category": "Parking día/noche",
-          "rating": 3.52,
-          "num_reviews": 21,
+          "rating": 3.55,
+          "num_reviews": 22,
           "distance_km": 1.753,
           "price": "gratuit",
           "amenities": "WC, Basura, Ducha, Mirador, Baño",
