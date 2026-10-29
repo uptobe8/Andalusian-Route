@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T05:53:04.490838+00:00",
+  "generated_at": "2026-10-29T13:08:31.274553+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -2507,8 +2507,8 @@
           "id": 556964,
           "name": "Ronda, 16 Partido Rural Navares y Tejares",
           "category": "Parking día/noche",
-          "rating": 4.32,
-          "num_reviews": 92,
+          "rating": 4.3,
+          "num_reviews": 93,
           "distance_km": 0.59,
           "price": "gratuit",
           "amenities": null,
@@ -7985,6 +7985,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 68786,
+          "name": "Cádiz, 25 Paseo Almirante Pascual Pery",
+          "category": "Parking día/noche",
+          "rating": 2.9,
+          "num_reviews": 41,
+          "distance_km": 1.502,
+          "price": "1,20€ - 3.60€ /hour",
+          "amenities": "Mirador, Baño",
+          "location": "Cádiz, Spain",
+          "url": "https://park4night.com/es/place/68786",
+          "photo": "https://cdn3.park4night.com/lieu/671601_671700/671649_pt.jpg",
+          "description": "Parking ideal para pernoctaciones, excepto vísperas de puente (botella). Regulado por parámetros de 9am a 9pm de Lunes a Domingo. Máximo 3 horas. ¡La longitud del vehículo de 6 m es oficialmente demasiado larga, ya que la parte trasera ya está en el pavimento y la parte delantera está en la carretera! Desafortunadamente, muy preocupante ya que los ",
+          "latitude": 36.5406,
+          "longitude": -6.28914,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 370176,
           "name": "Cádiz, 52 Avenida Andalucía",
           "category": "Parking día/noche",
@@ -7999,24 +8017,6 @@
           "description": "Pagado de 9-21. Lugares fáciles de encontrar.",
           "latitude": 36.51816,
           "longitude": -6.284222,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 366372,
-          "name": "San Fernando,",
-          "category": "Parking día/noche",
-          "rating": 2.5,
-          "num_reviews": 2,
-          "distance_km": 9.434,
-          "price": "gratuit",
-          "amenities": "Senderismo",
-          "location": "San Fernando, Spain",
-          "url": "https://park4night.com/es/place/366372",
-          "photo": "https://cdn3.park4night.com/lieu/1077001_1077100/1077074_pt.jpg",
-          "description": "Aparcamiento publico en la parte superior del centro comercial bahia sur de san fernando, justo en la planta baja restaurantes supermercados, y a escasos 50 mt un paseo con vistas a la ciudad de cadiz, muy silencioso y bastante amplio muy recomendable para pernoctar.",
-          "latitude": 36.471933,
-          "longitude": -6.208412,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
