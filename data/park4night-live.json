@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-29T22:47:59.863966+00:00",
+  "generated_at": "2026-10-30T05:54:16.696232+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -11819,24 +11819,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 166330,
-          "name": "Huelva, 40 Solar PP-5 Marismas Polvorin",
-          "category": "Parking día/noche",
-          "rating": 4.17,
-          "num_reviews": 6,
-          "distance_km": 1.786,
-          "price": "gratuit",
-          "amenities": "WC, Basura, WiFi, Senderismo",
-          "location": "Huelva, Spain",
-          "url": "https://park4night.com/es/place/166330",
-          "photo": "https://cdn3.park4night.com/lieu/463001_463100/463004_pt.jpg?1",
-          "description": "Aparcamiento gratis cerca media markt",
-          "latitude": 37.258585,
-          "longitude": -6.92483,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 170759,
           "name": "Aljaraque, 7 Diseminado Punta Umbria Cr",
           "category": "Parking día/noche",
@@ -12013,6 +11995,24 @@
           "description": "Aparcamiento donde no está prohibido la pernocta, no hay servicios, es una parcela de terreno junto al Estadio de fútbol Colombino, justo frente está el paseo marítimo con el Puente del Tinto, seña de identidad de Huelva y al final del paseo el monumento a Colon, muy bonito para pasear, hay bares en el paseo marítimo",
           "latitude": 37.24789,
           "longitude": -6.954674,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 166330,
+          "name": "Huelva, 40 Solar PP-5 Marismas Polvorin",
+          "category": "Parking día/noche",
+          "rating": 3.86,
+          "num_reviews": 7,
+          "distance_km": 1.786,
+          "price": "gratuit",
+          "amenities": "WC, Basura, WiFi, Senderismo",
+          "location": "Huelva, Spain",
+          "url": "https://park4night.com/es/place/166330",
+          "photo": "https://cdn3.park4night.com/lieu/463001_463100/463004_pt.jpg?1",
+          "description": "Aparcamiento gratis cerca media markt",
+          "latitude": 37.258585,
+          "longitude": -6.92483,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
