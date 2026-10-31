@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30T22:24:49.493489+00:00",
+  "generated_at": "2026-10-31T05:50:06.598689+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1580,8 +1580,8 @@
           "id": 474805,
           "name": "Málaga, 22 Calle Antonio Vílchez",
           "category": "Parking día/noche",
-          "rating": 4.54,
-          "num_reviews": 13,
+          "rating": 4.29,
+          "num_reviews": 14,
           "distance_km": 3.757,
           "price": "gratuit",
           "amenities": null,
