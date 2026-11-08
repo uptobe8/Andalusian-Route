@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T06:08:16.922675+00:00",
+  "generated_at": "2026-11-08T13:30:07.639500+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -10419,7 +10419,7 @@
           "name": "Torredelcampo, 195 Extrarradio Diseminados",
           "category": "Parking día/noche",
           "rating": 4.04,
-          "num_reviews": 26,
+          "num_reviews": 27,
           "distance_km": 10.572,
           "price": "gratuit",
           "amenities": "Agua, WC, Basura, WiFi, Mirador, BTT, Senderismo",
