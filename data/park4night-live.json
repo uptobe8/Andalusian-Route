@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T22:25:37.592934+00:00",
+  "generated_at": "2026-11-10T07:24:02.700514+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -1775,24 +1775,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 582912,
-          "name": "Málaga,P.º de Miramar",
-          "category": "Parking día/noche",
-          "rating": 3.67,
-          "num_reviews": 3,
-          "distance_km": 2.21,
-          "price": "gratuit",
-          "amenities": "Baño",
-          "location": "Málaga, Spain",
-          "url": "https://park4night.com/es/place/582912",
-          "photo": "https://cdn3.park4night.com/lieu/1803801_1803900/1803867_pt.jpg",
-          "description": "Calle con parking gratuito fuera de la zona de bajas emisiones de Málaga, a dos pasos de la playa, calle con sombra por la mañana y bastante tranquila.",
-          "latitude": 36.723856,
-          "longitude": -4.396808,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 662063,
           "name": "Calle Profesor Jesús Marín, Málaga",
           "category": "Parking día/noche",
@@ -2041,6 +2023,24 @@
           "description": "Muy buen sitio a lado de iglesia y gasolinera.entramos por acera y caril bisi.pernoctamos con tranquilidad y  por la mañana \r\ncafé en gasolinera.",
           "latitude": 36.738623,
           "longitude": -4.424643,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 582912,
+          "name": "Málaga,P.º de Miramar",
+          "category": "Parking día/noche",
+          "rating": 3.0,
+          "num_reviews": 4,
+          "distance_km": 2.21,
+          "price": "gratuit",
+          "amenities": "Baño",
+          "location": "Málaga, Spain",
+          "url": "https://park4night.com/es/place/582912",
+          "photo": "https://cdn3.park4night.com/lieu/1803801_1803900/1803867_pt.jpg",
+          "description": "Calle con parking gratuito fuera de la zona de bajas emisiones de Málaga, a dos pasos de la playa, calle con sombra por la mañana y bastante tranquila.",
+          "latitude": 36.723856,
+          "longitude": -4.396808,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
