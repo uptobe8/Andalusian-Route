@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11T19:39:04.218239+00:00",
+  "generated_at": "2026-11-12T07:17:29.303646+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -7679,6 +7679,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 117400,
+          "name": "Puerto Real, 3 Calle Concepción",
+          "category": "Parking día/noche",
+          "rating": 3.64,
+          "num_reviews": 50,
+          "distance_km": 9.1,
+          "price": "gratuit",
+          "amenities": "Agua, WC, Basura, Ducha, Panadería, WiFi, Baño, Windsurf",
+          "location": "Puerto Real, Spain",
+          "url": "https://park4night.com/es/place/117400",
+          "photo": "https://cdn3.park4night.com/lieu/305801_305900/305830_pt.jpg",
+          "description": "Aparcamiento con grifos ,céntrico en el mismo paseo marítimo junto a una pequeña playa q tiene agua con las mareas ideal para hacer turismo y comer por sus bares ,tiene un bar de playa justo al lado el balneario espectacular y en temporada tiene WC , también permiten CV aunque hay q esperar a la tarde q se despeje el parking",
+          "latitude": 36.525274,
+          "longitude": -6.186786,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 86328,
           "name": "Cádiz, Calle Adelfa",
           "category": "Parking día/noche",
@@ -7693,24 +7711,6 @@
           "description": "Explanada sin asfaltar, nosotros hemos dormido sin ningún problema.\r\nEs una alternativa al aparcamiento de cortadura si no te permite la policía dormir o está lleno.\r\nEspacio muy tranquilo, nosotros pasamos la noche femomenal.",
           "latitude": 36.494287,
           "longitude": -6.26894,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 117400,
-          "name": "Puerto Real, 3 Calle Concepción",
-          "category": "Parking día/noche",
-          "rating": 3.63,
-          "num_reviews": 49,
-          "distance_km": 9.1,
-          "price": "gratuit",
-          "amenities": "Agua, WC, Basura, Ducha, Panadería, WiFi, Baño, Windsurf",
-          "location": "Puerto Real, Spain",
-          "url": "https://park4night.com/es/place/117400",
-          "photo": "https://cdn3.park4night.com/lieu/305801_305900/305830_pt.jpg",
-          "description": "Aparcamiento con grifos ,céntrico en el mismo paseo marítimo junto a una pequeña playa q tiene agua con las mareas ideal para hacer turismo y comer por sus bares ,tiene un bar de playa justo al lado el balneario espectacular y en temporada tiene WC , también permiten CV aunque hay q esperar a la tarde q se despeje el parking",
-          "latitude": 36.525274,
-          "longitude": -6.186786,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
@@ -13088,24 +13088,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 728653,
-          "name": "Calle La Guardia B, Salobreña",
-          "category": "Parking día/noche",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 8.429,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Salobreña, Spain",
-          "url": "https://park4night.com/es/place/728653",
-          "photo": "https://cdn3.park4night.com/lieu/2244301_2244400/2244345_pt.jpg",
-          "description": "Explanada para unas 20 autocaravanas,sin servicios,tiene contenedores para residuos.\r\nSe puede pernoctar y junto a la playa de salobreña.",
-          "latitude": 36.741409,
-          "longitude": -3.596577,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 686241,
           "name": "Motril, Granada",
           "category": "Área descanso",
@@ -13121,6 +13103,24 @@
           "latitude": 36.770515,
           "longitude": -3.557019,
           "code": "AR",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 318140,
+          "name": "Area de Autocaravanas de Almuñecar - Alclub",
+          "category": "Área autocaravanas",
+          "rating": 4.54,
+          "num_reviews": 500,
+          "distance_km": 1.862,
+          "price": "20€/ noche(2pax) Extra 3€. Semana 17€/noche. Mes 1",
+          "amenities": "Agua, Aguas negras, Aguas grises, WC, Basura, Ducha, Panadería, Electricidad, WiFi, Lavandería, Mirador, Baño, Windsurf, Senderismo",
+          "location": "Almuñécar, Spain",
+          "url": "https://park4night.com/es/place/318140",
+          "photo": "https://cdn3.park4night.com/lieu/1546401_1546500/1546459_pt.jpg",
+          "description": "(Precios especiales por más de una semana)\nBienvenidos al área de autocaravanas “Alclub” en Almuñecar.\nA sólo 4 minutos a pie de la playa, restaurantes y supermercados. Aquí encontrará un lugar idílico para relajarse, rodeado de naturaleza, donde nos esforzamos por ofrecerle todo lo necesario para una estancia cómoda, tranquila y agradable.\nPor sup",
+          "latitude": 36.739293,
+          "longitude": -3.670915,
+          "code": "ACC_P",
           "source": "Park4Night guest API fallback"
         }
       ],
