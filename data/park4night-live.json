@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T19:46:23.036743+00:00",
+  "generated_at": "2026-11-14T06:31:10.740194+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -8867,6 +8867,24 @@
           "source": "Park4Night guest API fallback"
         },
         {
+          "id": 484004,
+          "name": "Sevilla, 7 Avenida Veintiocho de Febrero",
+          "category": "Parking día/noche",
+          "rating": 3.86,
+          "num_reviews": 7,
+          "distance_km": 1.763,
+          "price": "gratuit",
+          "amenities": "Basura",
+          "location": "Sevilla, Spain",
+          "url": "https://park4night.com/es/place/484004",
+          "photo": "https://cdn3.park4night.com/lieu/1471001_1471100/1471050_pt.jpg",
+          "description": "Zona tranquila para campers de menos de 6 metros. \r\nPasamos la noche tranquilos",
+          "latitude": 37.396979,
+          "longitude": -5.967178,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
           "id": 171996,
           "name": "Sevilla, 1 Glorieta de las Cigarreras",
           "category": "Parking día/noche",
@@ -8881,24 +8899,6 @@
           "description": "Varios aparcamientos sombreados en el borde de una calle muy transitada. Adecuado para furgonetas y autocaravanas de hasta unos 6 metros. Puedes aparcar toda la tarde por 2 euros. Muy bien situado, a sólo 15 minutos a pie del casco antiguo",
           "latitude": 37.375169,
           "longitude": -5.994422,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
-          "id": 484004,
-          "name": "Sevilla, 7 Avenida Veintiocho de Febrero",
-          "category": "Parking día/noche",
-          "rating": 3.83,
-          "num_reviews": 6,
-          "distance_km": 1.763,
-          "price": "gratuit",
-          "amenities": "Basura",
-          "location": "Sevilla, Spain",
-          "url": "https://park4night.com/es/place/484004",
-          "photo": "https://cdn3.park4night.com/lieu/1471001_1471100/1471050_pt.jpg",
-          "description": "Zona tranquila para campers de menos de 6 metros. \r\nPasamos la noche tranquilos",
-          "latitude": 37.396979,
-          "longitude": -5.967178,
           "code": "P",
           "source": "Park4Night guest API fallback"
         },
