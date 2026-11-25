@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-24T22:30:01.069856+00:00",
+  "generated_at": "2026-11-25T08:42:22.898220+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -6932,24 +6932,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 99502,
-          "name": "Conil de la Frontera, 52 Avenida de la Libertad",
-          "category": "Parking día/noche",
-          "rating": 3.64,
-          "num_reviews": 11,
-          "distance_km": 11.704,
-          "price": "gratuit",
-          "amenities": null,
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/99502",
-          "photo": null,
-          "description": "Aparcamientos en linea con árboles. A 10 minutos del centro",
-          "latitude": 36.286681,
-          "longitude": -6.091058,
-          "code": "P",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 68387,
           "name": "Vejer de la Frontera, 1881 Santa Lucía",
           "category": "Parking día/noche",
@@ -7288,6 +7270,24 @@
           "description": "Playa trafalgar. Ser limpios por favor",
           "latitude": 36.18852,
           "longitude": -6.023616,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 319155,
+          "name": "Conil de la Frontera, 24 Calle la Peñita",
+          "category": "Parking día/noche",
+          "rating": 2.2,
+          "num_reviews": 5,
+          "distance_km": 10.607,
+          "price": "gratuit",
+          "amenities": null,
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/319155",
+          "photo": "https://cdn3.park4night.com/lieu/908301_908400/908325_pt.jpg",
+          "description": "Parking muy cerca del centro de Conil. Se pueden aparcar furgonetas y autocaravanas sin problema. Parcela para unos 30 vehículos. Zona tranquila pero sin servicios aunque tienen comercios bastante cerca andando.",
+          "latitude": 36.27538,
+          "longitude": -6.082418,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
@@ -10964,24 +10964,6 @@
           "source": "Park4Night guest API fallback"
         },
         {
-          "id": 732267,
-          "name": "Carretera de Almería a Enix, Enix",
-          "category": "Naturaleza",
-          "rating": null,
-          "num_reviews": null,
-          "distance_km": 10.114,
-          "price": "gratuit",
-          "amenities": "BTT, Senderismo",
-          "location": "Enix, Spain",
-          "url": "https://park4night.com/es/place/732267",
-          "photo": "https://cdn3.park4night.com/lieu/2254001_2254100/2254097_pt.jpg",
-          "description": "Au milieu de nulle part. Route sinueuse et fin en terre mais facilement praticable. 1 seule place à plat le reste est en pente. Vue sur là méditerranéenne et les montagne. Départ de randonnées.",
-          "latitude": 36.854941,
-          "longitude": -2.574308,
-          "code": "PN",
-          "source": "Park4Night guest API fallback"
-        },
-        {
           "id": 731197,
           "name": "Almeria,Avenida del méditarraneo",
           "category": "Parking día/noche",
@@ -11662,6 +11644,24 @@
           "description": "Amplio parking al lado de Lidl. A 30 minutos andando del casco antiguo. 10 minutos de la playa. No hay sitio para una autocaravana, solo para una furgoneta",
           "latitude": 36.834101,
           "longitude": -2.447027,
+          "code": "P",
+          "source": "Park4Night guest API fallback"
+        },
+        {
+          "id": 558981,
+          "name": "Castell del Rey, 2D Carretera",
+          "category": "Parking día/noche",
+          "rating": 2.0,
+          "num_reviews": 1,
+          "distance_km": 3.656,
+          "price": "gratuit",
+          "amenities": "Mirador",
+          "location": "Castell del Rey, Spain",
+          "url": "https://park4night.com/es/place/558981",
+          "photo": "https://cdn3.park4night.com/lieu/1723301_1723400/1723337_pt.jpg",
+          "description": "Aparcamiento de grava a lo largo de la carretera, aunque bastante transitado. ¡Pero una hermosa vista, especialmente al atardecer!  Simplemente estacionamos aquí, comimos y luego seguimos.",
+          "latitude": 36.82507,
+          "longitude": -2.503236,
           "code": "P",
           "source": "Park4Night guest API fallback"
         }
