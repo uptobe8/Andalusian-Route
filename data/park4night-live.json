@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-27T21:22:11.756570+00:00",
+  "generated_at": "2026-11-28T07:55:15.516697+00:00",
   "source": "Beba-ai-ml/park4night-mcp via MCP stdio; automatic real guest API fallback if current MCP upstream returns 403",
   "tool": "search_places",
   "radius_km": 14.0,
@@ -4674,7 +4674,7 @@
           "name": "(11149) Kleine Oase: Milonga Garden",
           "category": "Motorhome area (private)",
           "rating": 4.95,
-          "num_reviews": 58,
+          "num_reviews": 59,
           "distance_km": 4.5,
           "price": "free",
           "amenities": "animaux, point_eau, poubelle, wc_public, douche, electricite, wifi, piscine, laverie",
@@ -5135,21 +5135,6 @@
           "source": "Park4Night MCP"
         },
         {
-          "id": 705674,
-          "name": "(11140) Conil de la Frontera - C. Paz",
-          "category": "Parking lot day/night",
-          "rating": 4.0,
-          "num_reviews": 1,
-          "distance_km": 1.0,
-          "price": "free",
-          "amenities": "caravaneige, animaux, poubelle, wc_public, boulangerie, laverie, lavage, donnees_mobile",
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/705674",
-          "photo": null,
-          "description": null,
-          "source": "Park4Night MCP"
-        },
-        {
           "id": 364309,
           "name": "(11149) Roche - Unnamed road",
           "category": "Parking lot day only",
@@ -5313,6 +5298,21 @@
           "photo": null,
           "description": null,
           "source": "Park4Night MCP"
+        },
+        {
+          "id": 296802,
+          "name": "(11140) Conil de la Frontera - 19 Calle Laguna",
+          "category": "Service area (water/dump)",
+          "rating": 3.75,
+          "num_reviews": 4,
+          "distance_km": 0.2,
+          "price": "free",
+          "amenities": "laverie",
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/296802",
+          "photo": null,
+          "description": null,
+          "source": "Park4Night MCP"
         }
       ],
       "count": 50
@@ -5418,7 +5418,7 @@
           "name": "(11149) Kleine Oase: Milonga Garden",
           "category": "Motorhome area (private)",
           "rating": 4.95,
-          "num_reviews": 58,
+          "num_reviews": 59,
           "distance_km": 10.6,
           "price": "free",
           "amenities": "animaux, point_eau, poubelle, wc_public, douche, electricite, wifi, piscine, laverie",
@@ -5834,21 +5834,6 @@
           "source": "Park4Night MCP"
         },
         {
-          "id": 705674,
-          "name": "(11140) Conil de la Frontera - C. Paz",
-          "category": "Parking lot day/night",
-          "rating": 4.0,
-          "num_reviews": 1,
-          "distance_km": 7.4,
-          "price": "free",
-          "amenities": "caravaneige, animaux, poubelle, wc_public, boulangerie, laverie, lavage, donnees_mobile",
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/705674",
-          "photo": null,
-          "description": null,
-          "source": "Park4Night MCP"
-        },
-        {
           "id": 542442,
           "name": "(11150) Vejer de la Frontera - 7 Calle Pintor Morillo Ferrad",
           "category": "Service area (water/dump)",
@@ -6069,6 +6054,21 @@
           "amenities": "poubelle",
           "location": "Conil de la Frontera, Spain",
           "url": "https://park4night.com/es/place/271357",
+          "photo": null,
+          "description": null,
+          "source": "Park4Night MCP"
+        },
+        {
+          "id": 664621,
+          "name": "(11140) Conil de la Frontera - N-340, KM 20, 8",
+          "category": "Service area (water/dump)",
+          "rating": 3.67,
+          "num_reviews": 3,
+          "distance_km": 9.9,
+          "price": "free",
+          "amenities": "wifi, laverie",
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/664621",
           "photo": null,
           "description": null,
           "source": "Park4Night MCP"
@@ -6533,21 +6533,6 @@
           "source": "Park4Night MCP"
         },
         {
-          "id": 705674,
-          "name": "(11140) Conil de la Frontera - C. Paz",
-          "category": "Parking lot day/night",
-          "rating": 4.0,
-          "num_reviews": 1,
-          "distance_km": 13.3,
-          "price": "free",
-          "amenities": "caravaneige, animaux, poubelle, wc_public, boulangerie, laverie, lavage, donnees_mobile",
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/705674",
-          "photo": null,
-          "description": null,
-          "source": "Park4Night MCP"
-        },
-        {
           "id": 469316,
           "name": "(11140) Conil de la Frontera - 4 Calle la Rotonda",
           "category": "Parking lot day/night",
@@ -6831,6 +6816,21 @@
           "photo": null,
           "description": null,
           "source": "Park4Night MCP"
+        },
+        {
+          "id": 536726,
+          "name": "(11159) Area Autocaravanas Torre Nueva El Palmar Camper Park",
+          "category": "Motorhome area",
+          "rating": 3.52,
+          "num_reviews": 73,
+          "distance_km": 7.6,
+          "price": "free",
+          "amenities": "animaux, eau_noire, eau_usee, poubelle, wc_public, douche, electricite",
+          "location": "El Palmar de Vejer, Spain",
+          "url": "https://park4night.com/es/place/536726",
+          "photo": null,
+          "description": null,
+          "source": "Park4Night MCP"
         }
       ],
       "count": 50
@@ -6981,7 +6981,7 @@
           "name": "(11149) Kleine Oase: Milonga Garden",
           "category": "Motorhome area (private)",
           "rating": 4.95,
-          "num_reviews": 58,
+          "num_reviews": 59,
           "distance_km": 12.2,
           "price": "free",
           "amenities": "animaux, point_eau, poubelle, wc_public, douche, electricite, wifi, piscine, laverie",
@@ -7352,21 +7352,6 @@
           "source": "Park4Night MCP"
         },
         {
-          "id": 705674,
-          "name": "(11140) Conil de la Frontera - C. Paz",
-          "category": "Parking lot day/night",
-          "rating": 4.0,
-          "num_reviews": 1,
-          "distance_km": 11.7,
-          "price": "free",
-          "amenities": "caravaneige, animaux, poubelle, wc_public, boulangerie, laverie, lavage, donnees_mobile",
-          "location": "Conil de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/705674",
-          "photo": null,
-          "description": null,
-          "source": "Park4Night MCP"
-        },
-        {
           "id": 652581,
           "name": "(11190) Benalup-Casas Viejas - Carretera Benalup-Vejer",
           "category": "Parking lot day/night",
@@ -7587,6 +7572,21 @@
           "amenities": "donnees_mobile",
           "location": "Barbate, Spain",
           "url": "https://park4night.com/es/place/275429",
+          "photo": null,
+          "description": null,
+          "source": "Park4Night MCP"
+        },
+        {
+          "id": 271357,
+          "name": "(11140) Conil de la Frontera - 18 Avenida de los Barcos",
+          "category": "Parking lot day only",
+          "rating": 3.67,
+          "num_reviews": 3,
+          "distance_km": 12.1,
+          "price": "free",
+          "amenities": "poubelle",
+          "location": "Conil de la Frontera, Spain",
+          "url": "https://park4night.com/es/place/271357",
           "photo": null,
           "description": null,
           "source": "Park4Night MCP"
@@ -12845,21 +12845,6 @@
           "source": "Park4Night MCP"
         },
         {
-          "id": 251533,
-          "name": "(21819) Palos de la Frontera - 107 Urbanizacion Rabida Urban",
-          "category": "Parking lot day/night",
-          "rating": 3.75,
-          "num_reviews": 16,
-          "distance_km": 6.1,
-          "price": "free",
-          "amenities": null,
-          "location": "Palos de la Frontera, Spain",
-          "url": "https://park4night.com/es/place/251533",
-          "photo": null,
-          "description": null,
-          "source": "Park4Night MCP"
-        },
-        {
           "id": 98380,
           "name": "(21819) La Rábida - 110 Urbanizacion Rabida Urbanizacion",
           "category": "Parking lot day/night",
@@ -12900,6 +12885,21 @@
           "amenities": "poubelle",
           "location": "La Rábida, Spain",
           "url": "https://park4night.com/es/place/134573",
+          "photo": null,
+          "description": null,
+          "source": "Park4Night MCP"
+        },
+        {
+          "id": 71443,
+          "name": "(21819) La Rábida - Carretera Huelva-Palos de la Frontera",
+          "category": "Parking lot day/night",
+          "rating": 3.72,
+          "num_reviews": 29,
+          "distance_km": 6.8,
+          "price": "free",
+          "amenities": null,
+          "location": "La Rábida, Spain",
+          "url": "https://park4night.com/es/place/71443",
           "photo": null,
           "description": null,
           "source": "Park4Night MCP"
@@ -13052,8 +13052,8 @@
           "id": 574619,
           "name": "(18680) Oasisss Tropical Fruit Farm Salobreña",
           "category": "On the farm",
-          "rating": 4.72,
-          "num_reviews": 40,
+          "rating": 4.73,
+          "num_reviews": 41,
           "distance_km": 10.3,
           "price": "free",
           "amenities": "point_eau, eau_noire, wc_public, douche, electricite",
